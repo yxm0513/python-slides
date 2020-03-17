@@ -1,7 +1,8 @@
 title: 浅谈Nebula-M 测试实践
 speaker: yangxinming
 transition: slide
-files: /css/base.css
+css:
+    - /css/base.css
 plugins:
     - echarts
     - mermaid
@@ -39,17 +40,19 @@ By YangXinMing {.text-intro}
 
 :::column {.fadeInUp}
 #### 视频接入
- * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
- * 支持视频编码格式 H.264
- * 支持最大视频分辨率 1080P
- * 支持人脸检测感兴趣区域设置
- * 支持最小、最大人脸像素设置
+ - 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
+ - 支持视频编码格式 H.264
+ - 支持最大视频分辨率 1080P
+ - 支持人脸检测感兴趣区域设置
+ - 支持最小、最大人脸像素设置
 
 #### 图片接入
+
  * 支持 SenseDLC AA 系列、11 系列、D 系列、T 系列抓拍机接入
  * 支持其他主流厂家抓拍机等抓拍设备 SDK 二次开发接入
 
 #### 人像库
+
  * 支持黑/白名单库新增、编辑、删除，人像库图片导入、导出、编辑、删除
 
 ---
@@ -67,17 +70,72 @@ By YangXinMing {.text-intro}
  * 网络继电器信号联动控制
 :::
 
-<slide class="slide-top">
-# 我们是如何测试的 {.content-left}
-
-
 <slide class="">
+# 我们是如何测试的 {.content-left}
+![](/img/camera.png)
+
+<slide class="slide-top">
 # 从三个小实践开始{.text-landing}
 
 ---
  * 智能开关{.animated.zoomIn}
  * 继电器开灯{.animated.zoomIn.delay-400}
  * videowall{.animated.zoomIn.delay-800}
+
+<slide class="slide-top">
+# 智能开关 
+<slide class="slide-top">
+# 继电器开灯 
+<slide class="slide-top content-center">
+# videowall
+<br/><br/>
+<br/><br/>
+<video width="800" controls autoplay>
+    <source src="/img/videowall.mov" type="video/mp4">
+</video>
+
+
+<slide class="slide-top">
+# 我们是如何测试的 {.content-left}
+### 目的
+  * 分享Nebula-M 测试中遇到的问题，以及我们的一些做法
+
+### 目标
+  * 保证产品质量，做到心里有底
+    * 时间有限
+    * 人力有限
+    * 保证覆盖
+
+<slide class="slide-top">
+# 我们是如何测试的 {.content-left}
+* 自动化 -> API -> 功能，兼容性，准确率，稳定性，覆盖率
+    * 好处
+        * 测试的覆盖
+        * 测试的稳定性
+        * 一些手动不可能完成的事情
+    * 坏处
+        * 需要开发的时间
+    * 需要做到
+        * 稳定性
+        * 可维护性
+        * 易用性
+        * 可扩展性
+* 手动
+    * 延时，网络，Web(做了部分的自动化)
+* 其他
+    * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
+    * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
+
+<slide class="slide-top">
+# 关于自动化
+![](/img/run_help.png)
+
+<slide class="slide-top">
+# 关于测试运行
+
+<slide class="slide-top">
+# 关于脚本开发
+![](/img/script.png)
 
 <slide :class="size-80">
 :::card
@@ -96,10 +154,4 @@ By YangXinMing {.text-intro}
 ![](https://source.unsplash.com/rCOWMC8qf8A/)
 
 :::
-<slide class="">
-# 智能开关
-<slide class="">
-# 继电器开灯
-<slide class="">
-# videowall
 <slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
