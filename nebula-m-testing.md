@@ -75,17 +75,25 @@ By YangXinMing {.text-intro}
 ![](/img/camera.png)
 
 <slide class="slide-top">
-# 从三个小实践开始{.text-landing}
+# 从四个小实践开始{.text-landing}
 
 ---
  * 智能开关{.animated.zoomIn}
  * 继电器开灯{.animated.zoomIn.delay-400}
- * videowall{.animated.zoomIn.delay-800}
+ * 视频制作{.animated.zoomIn.delay-800}
+ * videowall{.animated.zoomIn.delay-1200}
 
 <slide class="slide-top">
 # 智能开关 
 <slide class="slide-top">
 # 继电器开灯 
+<slide class="slide-top ontent-center">
+# 视频制作
+<br/><br/>
+<br/><br/>
+<video width="800" controls autoplay>
+    <source src="/img/tmp720p.mp4" type="video/mp4">
+</video>
 <slide class="slide-top content-center">
 # videowall
 <br/><br/>
@@ -96,15 +104,25 @@ By YangXinMing {.text-intro}
 
 
 <slide class="slide-top">
-# 我们是如何测试的 {.content-left}
-### 目的
-  * 分享Nebula-M 测试中遇到的问题，以及我们的一些做法
-
-### 目标
+# 我们测试的目标 {.content-left}
   * 保证产品质量，做到心里有底
-    * 时间有限
-    * 人力有限
+    * 有限时间
+    * 有限人力
     * 保证覆盖
+
+<slide>
+# 我们测试的覆盖
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+```
 
 <slide class="slide-top">
 # 我们是如何测试的 {.content-left}
