@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset=UTF-8><title>浅谈Nebula-M 测试实践 - By yangxinming</title><link rel=stylesheet href=//cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=//cdn.staticfile.org/prism/1.15.0/themes/prism.min.css><link rel=stylesheet href=//cdn.staticfile.org/KaTeX/0.10.0-rc.1/katex.min.css><link rel=stylesheet href=//cdn.staticfile.org/KaTeX/0.5.1/katex.min.css><link href=./css/chunk-vendors.4e4765ff.css rel=stylesheet></head><body><div><article id=webslides><section slide class="slide bg-black-blue aligncenter" image="https://source.unsplash.com/C1HhAQrbykQ/ .bg-primary"><span class="background background-bg-primary" style="background-image:url('https://source.unsplash.com/C1HhAQrbykQ/')"></span><div class=wrap wrap=true><h1 class="text-landing text-shadow">浅谈Nebula-M 测试实践</h1><hr><p class=text-intro>By YangXinMing</p></div></section><section slide class=slide><div class=wrap wrap=true><div class="card-50 bg-white"><div class=flex-content><h2>Nebula-m 是什么？</h2><ul><li class="animated zoomIn">边缘算力</li><li class="animated zoomIn delay-400">继电器开灯</li><li class="animated zoomIn delay-800">videowall</li></ul></div><figure><img src="[object Module]" alt=""></figure></div></div></section><section slide class=slide><div class=wrap wrap=true><h2>Nebula-m 的工作方式</h2></div></section><section slide class=slide><div class=wrap wrap=true><h1 class=text-landing>从三个小实践开始</h1><hr><ul><li class="animated zoomIn">智能开关</li><li class="animated zoomIn delay-400">继电器开灯</li><li class="animated zoomIn delay-800">videowall</li></ul></div></section><section slide class=slide :class=size-80><div class="wrap size-80" wrap=true><div class="card-50 bg-white"><div class=flex-content><h2>第一部分</h2><p>.card-50.bg-white</p><p class=text-intro><a href=http://Unsplash.com target=_blank>Unsplash</a> is a really cool resource. It is a collection of Creative Commons Zero licensed photos that are really great.</p><ul class=description><li><span class=text-label>Role:</span> Frontend</li><li><span class=text-label>client:</span> Acme</li><li><span class=text-label>year:</span> 2018</li></ul></div><figure><img src=https://source.unsplash.com/rCOWMC8qf8A/ alt=""></figure></div></div></section><section slide class=slide><div class=wrap wrap=true><h1>智能开关</h1></div></section><section slide class=slide><div class=wrap wrap=true><h1>继电器开灯</h1></div></section><section slide class=slide><div class=wrap wrap=true><h1>videowall</h1></div></section><section slide class="slide bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark"><video poster=https://webslides.tv/static/images/working.jpg loop muted autoplay preload=true class="background-video dark"><source src=https://webslides.tv/static/videos/working.mp4></video><div class=wrap wrap=true></div></section></article></div><script src=//cdn.staticfile.org/echarts/4.1.0-release/echarts.min.js></script><script src=//cdn.staticfile.org/mermaid/8.0.0/mermaid.min.js></script><script>mermaid.startOnLoad = false;</script><script>window.pluginsOptions = {}
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    let isPrintMode = false;
+    if(~location.search.indexOf('print-pdf')){
+        isPrintMode = true;
+        WebSlides.registerPlugin('scroll', function(){});
+    }
+    const ws = new WebSlides({
+        loop: false
+    })
+    window.wsInstance = ws;
+    if(isPrintMode){
+        ws.slides.forEach(s=>s.show())
+    }
+}, false)</script><script src=./js/chunk-vendors.js></script><script src=./js/nebula-m-testing.js></script></body></html>
