@@ -87,7 +87,7 @@ By YangXinMing {.text-intro}
 # 智能开关 
 <slide class="slide-top">
 # 继电器开灯 
-<slide class="slide-top ontent-center">
+<slide class="slide-top content-center">
 # 视频制作
 <br/><br/>
 <br/><br/>
@@ -103,7 +103,7 @@ By YangXinMing {.text-intro}
 </video>
 
 
-<slide class="slide-top">
+<slide>
 # 我们测试的目标 {.content-left}
   * 保证产品质量，做到心里有底
     * 有限时间
@@ -112,18 +112,23 @@ By YangXinMing {.text-intro}
 
 <slide>
 # 我们测试的覆盖
-```mermaid
-sequenceDiagram
-    Alice ->> Bob: Hello Bob, how are you?
-    Bob-->>John: How about you John?
-    Bob--x Alice: I am good thanks!
-    Bob-x John: I am good thanks!
-    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+![](/img/cover.png)
 
-    Bob-->Alice: Checking with John...
-    Alice->John: Yes... John, how are you?
-```
+<slide :class="size-70 content-center">
+# 我们测试的覆盖
+:::gallery
+![](/img/acc.png)
+## 准确率测试
 
+---
+![](/img/codecoverage.png)
+## 代码覆盖率测试
+
+---
+![](/img/delay.png)
+## 延时测试
+
+:::
 <slide class="slide-top">
 # 我们是如何测试的 {.content-left}
 * 自动化 -> API -> 功能，兼容性，准确率，稳定性，覆盖率
