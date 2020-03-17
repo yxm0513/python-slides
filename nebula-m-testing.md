@@ -114,9 +114,9 @@ By YangXinMing {.text-intro}
 # 我们测试的覆盖
 ![](/img/cover.png)
 
-<slide :class="size-70 content-center">
-# 我们测试的覆盖
-:::gallery
+<slide :class="">
+# 我们测试的覆盖 {.content-center}
+:::gallery-overlay
 ![](/img/acc.png)
 ## 准确率测试
 
@@ -129,8 +129,10 @@ By YangXinMing {.text-intro}
 ## 延时测试
 
 :::
-<slide class="slide-top">
+
+<slide class="">
 # 我们是如何测试的 {.content-left}
+:::column
 * 自动化 -> API -> 功能，兼容性，准确率，稳定性，覆盖率
     * 好处
         * 测试的覆盖
@@ -143,18 +145,21 @@ By YangXinMing {.text-intro}
         * 可维护性
         * 易用性
         * 可扩展性
+---
 * 手动
     * 延时，网络，Web(做了部分的自动化)
 * 其他
     * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
     * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
+---
+:::
 
 <slide class="slide-top">
-# 关于自动化
+# 我们是如何自动化的
 ![](/img/run_help.png)
 
 <slide class="slide-top">
-# 关于测试运行
+# 关于执行测试
 
 <slide class="slide-top">
 # 关于脚本开发
