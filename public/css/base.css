@@ -1,6 +1,9 @@
 body { background-color: red; }
 
-
 .myimg {
     width: 20%;
+}
+.column ul li {
+    list-style: disc !important;
+    margin-left: 3.2rem !important;
 }

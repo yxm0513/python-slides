@@ -8,6 +8,7 @@ plugins:
     - mermaid
     - katex
 
+
 <slide class="bg-black-blue aligncenter" image="https://source.unsplash.com/C1HhAQrbykQ/ .bg-primary">
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
