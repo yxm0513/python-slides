@@ -14,7 +14,7 @@ plugins:
 By YangXinMing {.text-intro}
 
 <slide class="size-100" image="https://source.unsplash.com/n9WPPWiPPJw/">
-![](img/waiguan.png)
+![](/img/waiguan.png)
 
 <slide class="size-100">
 :::card
@@ -25,7 +25,7 @@ By YangXinMing {.text-intro}
  * videowall{.animated.zoomIn.delay-800}
 
 ---
-![](img/nebula-m.png)
+![](/img/nebula-m.png)
 
 :::
 
