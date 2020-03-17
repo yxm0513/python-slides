@@ -20,14 +20,18 @@ By YangXinMing {.text-intro}
 :::card
 
 ## Nebula-m 是什么？
- * 边缘算力{.animated.zoomIn}
- * 继电器开灯{.animated.zoomIn.delay-400}
- * videowall{.animated.zoomIn.delay-800}
-
+ * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
+ * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。{.animated.zoomIn.delay-400} 
 ---
 ![](/img/nebula-m.png)
 
 :::
+
+<slide class="">
+## 用人话说 = 提供算力,人脸,人体的分析功能 {.text-landing}
+##### 工作方式 {.text-intro}
+![](/img/deploy.png)
+
 
 <slide class="">
 :::column
