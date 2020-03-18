@@ -30,16 +30,14 @@ By YangXinMing {.text-intro}
 
 :::
 
-<slide class="">
+<slide class="fullscreen">
 ### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
 !![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
 
 
-<slide>
-## 产品功能
-
+<slide class="fullscreen">
+### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
-
 :::column {.fadeInUp}
 #### 视频接入
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
