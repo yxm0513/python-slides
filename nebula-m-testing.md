@@ -102,45 +102,77 @@ By YangXinMing {.text-intro}
 # 智能插座
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
 ---
+:::div {.fadeInUp}
 <video height="600" width="340" controls autoplay loop>
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
+:::
 :::
 <slide class="grid vertical-align">
 :::column
 # 网络继电器开灯 
 ---
+:::div {.fadeInUp}
 <video height="600" width="340" controls autoplay loop>
     <source src="/img/light.mp4" type="video/mp4">
 </video>
 :::
-<slide class="">
+:::
+<slide class="slide-top content-center">
 # 视频制作
-<br/><br/>
-<video width="800" controls autoplay>
+:::div {.fadeInUp}
+<br> 
+<video width="700" controls autoplay loop>
     <source src="/img/tmp720p.mp4" type="video/mp4">
 </video>
-<slide class="">
+:::
+
+<slide class="slide-top content-center">
 # videowall
-<br/><br/>
-<video width="800" controls autoplay>
+:::div {.fadeInUp}
+<br/>
+<video width="700" controls autoplay loop>
     <source src="/img/videowall.mov" type="video/mp4">
 </video>
-
-
-<slide>
-# 我们测试的目标 {.content-left}
-  * 保证产品质量，做到心里有底
-    * 有限时间
-    * 有限人力
-    * 保证覆盖
+:::
 
 <slide>
-# 我们测试的覆盖
-![](/img/cover.png)
+# 我们测试的目标{.text-landing} 
+<br>
+<br>
+:::flexblock {.metrics}
+
+:::div {.animated.zoomIn}
+
+:fa-clock-o:
+
+有限时间
+
+----
+:::div {.animated.zoomIn.delay-400}
+:fa-users:
+
+有限人力
+
+----
+:::div {.animated.zoomIn.delay-800}
+:fa-tasks:
+
+保证覆盖
+
+:::
+<br>
+# 保证产品质量，做到心里有底 {.text-landing .content-center .zoomIn.delay-2000}
+
+<slide class="fullscreen">
+### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
+!![](/img/cover.png .aligncenter.fadeInUp.delay-400)
 
 <slide :class="">
-# 我们测试的覆盖 {.content-center}
+## 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
+<br>
+<br>
+:::div {.fadeInUp}
 :::gallery-overlay
 ![](/img/acc.png)
 ## 准确率测试
@@ -153,6 +185,7 @@ By YangXinMing {.text-intro}
 ![](/img/delay.png)
 ## 延时测试
 
+:::
 :::
 
 <slide class="">
