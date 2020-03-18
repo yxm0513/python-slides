@@ -42,19 +42,17 @@ By YangXinMing {.text-intro}
 
 :::column {.fadeInUp}
 #### 视频接入
- - 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
- - 支持视频编码格式 H.264
- - 支持最大视频分辨率 1080P
- - 支持人脸检测感兴趣区域设置
- - 支持最小、最大人脸像素设置
+ * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
+ * 支持视频编码格式 H.264
+ * 支持最大视频分辨率 1080P
+ * 支持人脸检测感兴趣区域设置
+ * 支持最小、最大人脸像素设置
 
 #### 图片接入
-
  * 支持 SenseDLC AA 系列、11 系列、D 系列、T 系列抓拍机接入
  * 支持其他主流厂家抓拍机等抓拍设备 SDK 二次开发接入
 
 #### 人像库
-
  * 支持黑/白名单库新增、编辑、删除，人像库图片导入、导出、编辑、删除
 
 ---
@@ -72,20 +70,34 @@ By YangXinMing {.text-intro}
  * 网络继电器信号联动控制
 :::
 
-<slide class="size-80">
-:::div {.content-left}
-# 我们是如何测试的
+<slide class="grid vertical-align">
+:::column
+# 我们是如何测试的{.zoomIn} 
+---
+!![](/img/camera.png .fadeInUp.delay-800)
 :::
-!![](/img/camera.png .fadeInUp.delay-400)
 
 <slide class="slide-top">
 # 从四个小实践开始{.text-landing}
 
+:::flexblock 
+:::div {.animated.zoomIn}
+::fa-plug::
+## 智能开关
 ---
- * 智能开关{.animated.zoomIn}
- * 继电器开灯{.animated.zoomIn.delay-400}
- * 视频制作{.animated.zoomIn.delay-800}
- * videowall{.animated.zoomIn.delay-1200}
+:::div {.animated.zoomIn.delay-400}
+::fa-lightbulb-o::
+## 网络继电器开灯
+---
+:::div {.animated.zoomIn.delay-800}
+::fa-video-camera::
+## 视频制作
+---
+:::div {.animated.zoomIn.delay-1200}
+::fa-play::
+## videowall
+---
+:::
 
 <slide class="slide-top">
 # 智能开关 
