@@ -189,10 +189,10 @@ By YangXinMing {.text-intro}
 :::
 
 <slide class="fullscreen">
+:::div{.fadeInUp.content-center}
 ### 我们的做法 {.aligncenter.text-landing.zoomIn}
----
-:::column {.fadeInUp.aligncenter}
-##### 自动化
+:::column
+#### 自动化{.content-left}
  * :覆盖\::{.text-label} 
    * API -> 功能，兼容性，准确率，稳定性，覆盖率
  * :好处\::{.text-label}
@@ -207,17 +207,17 @@ By YangXinMing {.text-intro}
    * 易用性
    * 可扩展性
 ---
-##### 手动
+#### 手动{.content-left}
   * 延时
   * 网络
   * Web(做了部分的自动化)
   * 对接
 
-##### 其他
+#### 其他{.content-left}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
   * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 :::
-
+:::
 <slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/py_start.png .aligncenter.fadeInUp.delay-400)
