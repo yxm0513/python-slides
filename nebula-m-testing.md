@@ -231,6 +231,10 @@ By YangXinMing {.text-intro}
 !![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
 
 <slide class="fullscreen">
+### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+!![](/img/log.png .aligncenter.fadeInUp.delay-400)
+
+<slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
 !![](/img/script.png .aligncenter.fadeInUp.delay-400)
 
@@ -253,7 +257,17 @@ By YangXinMing {.text-intro}
 </video>
 :::
 
+<slide image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
+:::div {.content-left}
+### 未来计划 
+<br>
+{.text-intro}
 
+ * Viper-Lite SEP
+ * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架
+ * 现有测试框架SEP 集成
+{.description}
+:::
 <slide :class="size-80">
 :::card
 
