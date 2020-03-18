@@ -99,9 +99,10 @@ By YangXinMing {.text-intro}
 :::
 
 <slide class="grid vertical-align">
-:::column
-## 智能插座
+:::column 
+## 智能插座(反复断电)
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
+
 ---
 :::div {.fadeInUp}
 <video height="600" width="340" controls autoplay loop>
