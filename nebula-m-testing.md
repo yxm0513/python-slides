@@ -97,9 +97,16 @@ By YangXinMing {.text-intro}
 ---
 :::
 
-<slide class="slide-top">
-# 智能插座 
-<slide class="slide-top">
+<slide class="grid vertical-align">
+:::column
+# 智能插座
+ * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
+---
+<video height="600" controls>
+    <source src="/img/plug.mp4" type="video/mp4">
+</video>
+:::
+<slide class="">
 # 网络继电器开灯 
 <slide class="">
 # 视频制作
