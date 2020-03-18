@@ -98,9 +98,9 @@ By YangXinMing {.text-intro}
 :::
 
 <slide class="slide-top">
-# 智能开关 
+# 智能插座 
 <slide class="slide-top">
-# 继电器开灯 
+# 网络继电器开灯 
 <slide class="">
 # 视频制作
 <br/><br/>
