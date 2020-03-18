@@ -102,12 +102,18 @@ By YangXinMing {.text-intro}
 # 智能插座
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
 ---
-<video height="600" controls>
+<video height="600" width="340" controls autoplay loop>
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
 :::
-<slide class="">
+<slide class="grid vertical-align">
+:::column
 # 网络继电器开灯 
+---
+<video height="600" width="340" controls autoplay loop>
+    <source src="/img/light.mp4" type="video/mp4">
+</video>
+:::
 <slide class="">
 # 视频制作
 <br/><br/>
