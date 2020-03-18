@@ -83,7 +83,7 @@ By YangXinMing {.text-intro}
 :::flexblock 
 :::div {.animated.zoomIn}
 ::fa-plug::
-## 智能开关
+## 智能插座
 ---
 :::div {.animated.zoomIn.delay-400}
 ::fa-lightbulb-o::
