@@ -1,6 +1,7 @@
 title: 浅谈Nebula-M 测试实践
 speaker: yangxinming
 transition: slide
+prismTheme: funky
 css:
     - /css/base.css
 plugins:
@@ -71,9 +72,11 @@ By YangXinMing {.text-intro}
  * 网络继电器信号联动控制
 :::
 
-<slide class="">
-# 我们是如何测试的 {.content-left}
-![](/img/camera.png)
+<slide class="size-80">
+:::div {.content-left}
+# 我们是如何测试的
+:::
+!![](/img/camera.png .fadeInUp.delay-400)
 
 <slide class="slide-top">
 # 从四个小实践开始{.text-landing}
@@ -88,16 +91,14 @@ By YangXinMing {.text-intro}
 # 智能开关 
 <slide class="slide-top">
 # 继电器开灯 
-<slide class="slide-top content-center">
+<slide class="">
 # 视频制作
-<br/><br/>
 <br/><br/>
 <video width="800" controls autoplay>
     <source src="/img/tmp720p.mp4" type="video/mp4">
 </video>
-<slide class="slide-top content-center">
+<slide class="">
 # videowall
-<br/><br/>
 <br/><br/>
 <video width="800" controls autoplay>
     <source src="/img/videowall.mov" type="video/mp4">
@@ -184,3 +185,4 @@ By YangXinMing {.text-intro}
 
 :::
 <slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
+# Thanks
