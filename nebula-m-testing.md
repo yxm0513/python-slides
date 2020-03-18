@@ -77,7 +77,8 @@ By YangXinMing {.text-intro}
 
 <slide class="slide-top">
 ## 从四个小的实践开始{.text-landing.content-center}
-
+<br>
+<br>
 :::flexblock 
 :::div {.animated.zoomIn}
 ::fa-plug::

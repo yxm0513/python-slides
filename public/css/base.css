@@ -7,3 +7,7 @@ body { background-color: red; }
     list-style: disc !important;
     margin-left: 3.2rem !important;
 }
+
+i.fa {
+    font-size: 2em;
+}
