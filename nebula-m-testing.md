@@ -22,7 +22,7 @@ By YangXinMing {.text-intro}
 <slide class="fullscreen">
 :::card {.card-70}
 
-## Nebula-m 是什么？
+## Nebula-M 是什么？
  * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
  * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。{.animated.zoomIn.delay-400} 
 ---
@@ -70,13 +70,13 @@ By YangXinMing {.text-intro}
 
 <slide class="grid vertical-align">
 :::column
-# 我们是如何测试的{.zoomIn} 
+## 我们是如何测试的{.zoomIn} 
 ---
 !![](/img/camera.png .fadeInUp.delay-800)
 :::
 
 <slide class="slide-top">
-# 从四个小实践开始{.text-landing}
+## 从四个小实践开始{.text-landing.content-center}
 
 :::flexblock 
 :::div {.animated.zoomIn}
@@ -99,7 +99,7 @@ By YangXinMing {.text-intro}
 
 <slide class="grid vertical-align">
 :::column
-# 智能插座
+## 智能插座
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
 ---
 :::div {.fadeInUp}
@@ -110,7 +110,7 @@ By YangXinMing {.text-intro}
 :::
 <slide class="grid vertical-align">
 :::column
-# 网络继电器开灯 
+## 网络继电器开灯 
 ---
 :::div {.fadeInUp}
 <video height="600" width="340" controls autoplay loop>
@@ -119,7 +119,7 @@ By YangXinMing {.text-intro}
 :::
 :::
 <slide class="slide-top content-center">
-# 视频制作
+## 视频制作
 :::div {.fadeInUp}
 <br> 
 <video width="700" controls autoplay loop>
@@ -128,7 +128,7 @@ By YangXinMing {.text-intro}
 :::
 
 <slide class="slide-top content-center">
-# videowall
+## videowall
 :::div {.fadeInUp}
 <br/>
 <video width="700" controls autoplay loop>
@@ -137,7 +137,7 @@ By YangXinMing {.text-intro}
 :::
 
 <slide>
-# 我们测试的目标{.text-landing} 
+## 我们测试的目标{.text-landing} 
 <br>
 <br>
 :::flexblock {.metrics}
@@ -162,14 +162,14 @@ By YangXinMing {.text-intro}
 
 :::
 <br>
-# 保证产品质量，做到心里有底 {.text-landing .content-center .zoomIn.delay-2000}
+## 保证产品质量，做到心里有数 {.text-landing .content-center .zoomIn.delay-2000}
 
 <slide class="fullscreen">
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
 !![](/img/cover.png .aligncenter.fadeInUp.delay-400)
 
 <slide :class="">
-## 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
+## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
 <br>
 <br>
 :::div {.fadeInUp}
@@ -188,57 +188,86 @@ By YangXinMing {.text-intro}
 :::
 :::
 
-<slide class="">
-# 我们是如何测试的 {.content-left}
-:::column
-* 自动化 -> API -> 功能，兼容性，准确率，稳定性，覆盖率
-    * 好处
-        * 测试的覆盖
-        * 测试的稳定性
-        * 一些手动不可能完成的事情
-    * 坏处
-        * 需要开发的时间
-    * 需要做到
-        * 稳定性
-        * 可维护性
-        * 易用性
-        * 可扩展性
+<slide class="fullscreen">
+### 我们的做法 {.aligncenter.text-landing.zoomIn}
 ---
-* 手动
-    * 延时，网络，Web(做了部分的自动化)
-* 其他
-    * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
-    * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
+:::column {.fadeInUp.aligncenter}
+##### 自动化
+ * :覆盖\::{.text-label} 
+   * API -> 功能，兼容性，准确率，稳定性，覆盖率
+ * :好处\::{.text-label}
+   * 测试的覆盖
+   * 测试的稳定性
+   * 完成一些手动不可能完成的事情
+ * :坏处\::{.text-label}
+   * 需要开发的时间
+ * :需要做到\::{.text-label}
+   * 稳定性
+   * 可维护性
+   * 易用性
+   * 可扩展性
 ---
+##### 手动
+  * 延时
+  * 网络
+  * Web(做了部分的自动化)
+  * 对接
+
+##### 其他
+  * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
+  * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 :::
 
-<slide class="slide-top">
-# 我们是如何自动化的
-![](/img/run_help.png)
+<slide class="fullscreen">
+### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+!![](/img/py_start.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="slide-top">
-# 关于执行测试
+<slide class="fullscreen">
+### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+!![](/img/perl_start.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="slide-top">
-# 关于脚本开发
-![](/img/script.png)
+<slide class="fullscreen">
+### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+!![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
+
+<slide class="fullscreen">
+### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+!![](/img/script.png .aligncenter.fadeInUp.delay-400)
+
+<slide class="fullscreen">
+### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+[Source Code](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
+!![](/img/testcase.png .aligncenter.fadeInUp.delay-400)
+
+<slide class="fullscreen">
+### 我们之前的计划 {.content-center}
+<br>
+:::column {.sm .aligncenter .fadeInUp}
+> [:fa-file-pdf-o: Deprecated Plan](/test.pdf) 
+<br>
+<br>
+!![](/img/plan_arch.png .alignright)
+---
+<video width="900" controls autoplay loop>
+    <source src="/img/nebula-m_testserver.mov" type="video/mp4">
+</video>
+:::
+
 
 <slide :class="size-80">
 :::card
 
-## 第一部分
-.card-50.bg-white
+### 测温版
 
- [Unsplash](http://Unsplash.com) is a really cool resource. It is a collection of Creative Commons Zero licensed photos that are really great. {.text-intro}
+{.text-intro} 
 
- * :Role\::{.text-label} Frontend
- * :client\::{.text-label} Acme
- * :year\::{.text-label} 2018
- {.description}
-
+ * :测温告警:{.text-label} 
+ * :佩戴口罩对比:{.text-label} 
+ * :未佩戴口罩告警:{.text-label} 
+{.description}
 ---
-![](https://source.unsplash.com/rCOWMC8qf8A/)
+![](/img/thermo.png)
 
 :::
 <slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
-# Thanks
+# Thanks!{.aligncenter.text-landing.zoomIn}
