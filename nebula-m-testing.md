@@ -38,7 +38,7 @@ By YangXinMing {.text-intro}
 <slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
-:::column {.fadeInUp}
+:::column {.fadeInUp .build}
 #### 视频接入
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
  * 支持视频编码格式 H.264
@@ -87,19 +87,19 @@ By YangXinMing {.text-intro}
 <br>
 <br>
 :::flexblock 
-:::div {.animated.zoomIn}
+:::div {.tobuild.zoomIn}
 :fa-plug:
 ## 智能插座
 ---
-:::div {.animated.zoomIn.delay-400}
+:::div {.tobuild.zoomIn}
 :fa-lightbulb-o:
 ## 网络继电器开灯
 ---
-:::div {.animated.zoomIn.delay-800}
+:::div {.tobuild.zoomIn}
 :fa-video-camera:
 ## 视频制作
 ---
-:::div {.animated.zoomIn.delay-1200}
+:::div {.tobuild.zoomIn}
 :fa-play:
 ## videowall
 ---
@@ -171,7 +171,7 @@ By YangXinMing {.text-intro}
 
 :::
 <br>
-## 保证产品质量，做到心里有数 {.text-landing .content-center .zoomIn.delay-2000}
+## 保证产品质量，做到心里有数 {.tobuild .text-landing .content-center .zoomIn.delay-2000}
 
 <slide class="fullscreen">
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
