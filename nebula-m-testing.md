@@ -196,8 +196,8 @@ By YangXinMing {.text-intro}
 :::
 
 <slide class="fullscreen">
-:::div{.fadeInUp.content-center}
-### 我们的做法 {.aligncenter.text-landing.zoomIn}
+:::div{.fadeInUp.content-center.zoomIn}
+### 我们的做法 {.aligncenter.text-landing}
 :::column {.build}
 #### 自动化{.content-left}
  * :覆盖\::{.text-label} 
