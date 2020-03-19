@@ -81,19 +81,19 @@ By YangXinMing {.text-intro}
 <br>
 :::flexblock 
 :::div {.animated.zoomIn}
-::fa-plug::
+:fa-plug:
 ## 智能插座
 ---
 :::div {.animated.zoomIn.delay-400}
-::fa-lightbulb-o::
+:fa-lightbulb-o:
 ## 网络继电器开灯
 ---
 :::div {.animated.zoomIn.delay-800}
-::fa-video-camera::
+:fa-video-camera:
 ## 视频制作
 ---
 :::div {.animated.zoomIn.delay-1200}
-::fa-play::
+:fa-play:
 ## videowall
 ---
 :::
@@ -236,13 +236,18 @@ By YangXinMing {.text-intro}
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/log.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="fullscreen">
+<slide class="grid vertical-align">
+:::column
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+---
 !![](/img/script.png .aligncenter.fadeInUp.delay-400)
+:::
 
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+:::span {.aligncenter.text-subtitle.zoomIn}
 [Source Code](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
+:::
 !![](/img/testcase.png .aligncenter.fadeInUp.delay-400)
 
 <slide class="fullscreen">
