@@ -71,6 +71,13 @@ By YangXinMing {.text-intro}
 <slide class="grid vertical-align">
 :::column
 ## 我们是如何测试的{.zoomIn} 
+ * 15 x 摄像头
+ * 2 x 继电器
+ * 1 x 台式机 + 1 x 显示器
+ * 1 x 服务器
+ * Nebula-M 若干
+ * 路由器，交换机，智能插座若干
+{.description.build}
 ---
 !![](/img/camera.png .fadeInUp.delay-800)
 :::
