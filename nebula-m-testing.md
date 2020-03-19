@@ -271,7 +271,7 @@ By YangXinMing {.text-intro}
  * 现有测试框架SEP 集成
 {.description}
 :::
-<slide :class="size-80">
+<slide :class="">
 :::card
 
 ### 测温版
