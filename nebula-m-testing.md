@@ -238,9 +238,9 @@ By YangXinMing {.text-intro}
 
 <slide class="grid vertical-align">
 :::column
-### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+### 我们是如何自动化开发的 {.content-left.zoomIn}
 ---
-!![](/img/script.png .aligncenter.fadeInUp.delay-400)
+!![](/img/script.png .aligncenter.fadeInUp.delay-400.size-50)
 :::
 
 <slide class="fullscreen">
