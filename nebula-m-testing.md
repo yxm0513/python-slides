@@ -1,7 +1,7 @@
 title: 浅谈Nebula-M 测试实践
 speaker: yangxinming
-transition: slide
-prismTheme: funky
+transition: cards
+prismTheme: dark
 css:
     - /css/base.css
 plugins:
@@ -230,9 +230,15 @@ By YangXinMing {.text-intro}
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
 
-<slide>
+<slide class="">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/log.png .aligncenter.fadeInUp.delay-400.size-50)
+:::gallery {.build}
+!![](/img/log1.png .aligncenter.fadeInUp)
+
+----
+
+!![](/img/136.png .aligncenter.fadeInUp)
+:::
 
 <slide class="" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
 ### 我们是如何自动化开发的 {.content-left.zoomIn}
@@ -281,6 +287,16 @@ By YangXinMing {.text-intro}
 ---
 ![](/img/thermo.png)
 
+<slide :class="">
+:::card
+
+### 难点
+
+ * 场景拟合
+ * 标记（数据，运行中标记）
+{.build.description}
+---
+![](/img/thermo.png)
 :::
 <slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks!{.aligncenter.text-landing.zoomIn}
