@@ -287,16 +287,11 @@ By YangXinMing {.text-intro}
 ---
 ![](/img/thermo.png)
 
-<slide :class="">
-:::card
-
+<slide :class="slide-top content-center">
 ### 难点
 
  * 场景拟合
  * 标记（数据，运行中标记）
 {.build.description}
----
-![](/img/thermo.png)
-:::
 <slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks!{.aligncenter.text-landing.zoomIn}
