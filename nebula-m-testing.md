@@ -217,7 +217,7 @@ By YangXinMing {.text-intro}
 
 #### 其他{.content-left}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
-  * 在项目不是空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
+  * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 :::
 :::
 <slide class="fullscreen">
