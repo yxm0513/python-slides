@@ -222,33 +222,29 @@ By YangXinMing {.text-intro}
 :::
 <slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/py_start.png .aligncenter.fadeInUp.delay-400)
+!![](/img/py_start.png .aligncenter.fadeInUp.delay-400.size-60)
 
 <slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/perl_start.png .aligncenter.fadeInUp.delay-400)
+!![](/img/perl_start.png .aligncenter.fadeInUp.delay-400.size-80)
 
 <slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="fullscreen">
+<slide>
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/log.png .aligncenter.fadeInUp.delay-400)
+!![](/img/log.png .aligncenter.fadeInUp.delay-400.size-50)
 
-<slide class="grid vertical-align">
-:::column
+<slide class="" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
 ### 我们是如何自动化开发的 {.content-left.zoomIn}
----
-!![](/img/script.png .aligncenter.fadeInUp.delay-400.size-50)
-:::
 
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
 :::span {.aligncenter.text-subtitle.zoomIn}
 [Source Code](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
 :::
-!![](/img/testcase.png .aligncenter.fadeInUp.delay-400)
+!![](/img/testcase.png .aligncenter.fadeInUp.delay-400.size-80)
 
 <slide class="fullscreen">
 ### 我们之前的计划 {.content-center}

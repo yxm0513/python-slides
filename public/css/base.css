@@ -11,3 +11,7 @@ body { background-color: red; }
 i.fa {
     font-size: 2em;
 }
+
+.background-right-10 {
+    background-position: right 200px bottom 100px !important;
+}
