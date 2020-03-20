@@ -143,8 +143,10 @@ MQTT版\:
  * 通过自动化之后，可以反复断电1晚
 {.description.build}
 
+!![](/img/plug.png .aligncenter.fadeInUp.delay-400.size-80.tobuild)
+
 ---
-:::div {.fadeInUp.tobuild}
+:::div {.fadeInUp.tobuild.content-center}
 <video height="600" width="340" controls autoplay loop>
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
@@ -308,7 +310,7 @@ MQTT版\:
 <br>
 !![](/img/plan_arch.png .alignright)
 ---
-<video width="900" controls autoplay loop>
+<video width="850" controls autoplay loop>
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
 </video>
 :::
