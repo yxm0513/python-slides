@@ -121,10 +121,16 @@ MQTT版\:
 :::div {.tobuild.zoomIn}
 :fa-plug:
 ## 智能插座
+ * 之前手动盒子测试断电，最多测几十次
+ * 自动化之后，可以反复断电1晚
+{.description.build}
 ---
 :::div {.tobuild.zoomIn}
 :fa-lightbulb-o:
 ## 网络继电器开灯
+ * 之前智能通过听来确定继电器触发
+ * 现在观察灯的闪烁就可以了解触发情况
+{.description.build}
 ---
 :::div {.tobuild.zoomIn}
 :fa-video-camera:
@@ -233,13 +239,13 @@ MQTT版\:
 ### 我们的做法 {.aligncenter.text-landing}
 :::column {.build}
 #### 自动化{.content-left}
- * :覆盖\::{.text-label} 
-   * API -> 功能，兼容性，准确率，稳定性，覆盖率
- * :好处\::{.text-label}
-   * 测试的覆盖
+ * :覆盖\::{.text-label} --> 通过API覆盖超过80%以上的测试 
+   * 功能，兼容性，准确率，稳定性，覆盖率
+ * :优点\::{.text-label}
+   * 有效的测试的覆盖, 回归
    * 测试的稳定性
    * 完成一些手动不可能完成的事情
- * :坏处\::{.text-label}
+ * :缺点\::{.text-label}
    * 需要开发的时间
  * :需要做到\::{.text-label}
    * 稳定性
@@ -249,7 +255,7 @@ MQTT版\:
 ---
 #### 手动{.content-left}
   * 延时
-  * 网络
+  * 网络 [:fa-file-pdf-o:](/net.pdf)
   * Web(做了部分的自动化)
   * 对接
 
