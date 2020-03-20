@@ -69,7 +69,7 @@ MQTT版\:
 <slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
-:::column {.fadeInUp .build}
+:::column  {.build.zoomIn}
 #### 视频接入
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
  * 支持视频编码格式 H.264
@@ -98,7 +98,6 @@ MQTT版\:
 #### 信号联动
  * 网络继电器信号联动控制
 :::
-
 <slide class="grid vertical-align fullscreen">
 :::column
 #### 我们是如何测试的{.zoomIn} 
@@ -119,33 +118,30 @@ MQTT版\:
 <br>
 :::flexblock 
 :::div {.tobuild.zoomIn}
-:fa-plug:
+:fa-plug: {.myfa}
 ## 智能插座
- * 之前手动盒子测试断电，最多测几十次
- * 自动化之后，可以反复断电1晚
-{.description.build}
 ---
 :::div {.tobuild.zoomIn}
-:fa-lightbulb-o:
+:fa-lightbulb-o:{.myfa}
 ## 网络继电器开灯
- * 之前智能通过听来确定继电器触发
- * 现在观察灯的闪烁就可以了解触发情况
-{.description.build}
 ---
 :::div {.tobuild.zoomIn}
-:fa-video-camera:
+:fa-video-camera:{.myfa}
 ## 视频制作
 ---
 :::div {.tobuild.zoomIn}
-:fa-play:
+:fa-play:{.myfa}
 ## videowall
 ---
 :::
 
 <slide class="grid vertical-align fullscreen">
 :::column 
-## 智能插座(反复断电)
+## 智能插座
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
+ * 之前手动盒子测试断电，每次最多测几十次
+ * 通过自动化之后，可以反复断电1晚
+{.description.build}
 
 ---
 :::div {.fadeInUp.tobuild}
@@ -157,6 +153,9 @@ MQTT版\:
 <slide class="grid vertical-align fullscreen">
 :::column
 ## 网络继电器开灯 
+ * 之前只能通过听继电器的滴答声来确定触发
+ * 现在观察灯的闪烁就可以了解触发情况
+{.description.build}
 ---
 :::div {.fadeInUp.tobuild}
 <video height="600" width="340" controls autoplay loop>
@@ -225,8 +224,12 @@ MQTT版\:
 ## 准确率测试
 
 ---
+<br>
+<br>
+<br>
+<br>
 ![](/img/codecoverage.png)
-## 代码覆盖率测试
+## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
 
 ---
 ![](/img/delay.png)
