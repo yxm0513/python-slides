@@ -81,7 +81,7 @@ By YangXinMing {.text-intro}
  * 路由器，交换机，智能插座若干
 {.description.build}
 ---
-!![](/img/camera.png .fadeInUp.delay-800)
+!![](/img/camera.png .fadeInUp.delay-800.tobuild)
 :::
 
 <slide class="fullscreen">
@@ -113,7 +113,7 @@ By YangXinMing {.text-intro}
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
 
 ---
-:::div {.fadeInUp}
+:::div {.fadeInUp.tobuild}
 <video height="600" width="340" controls autoplay loop>
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
@@ -123,7 +123,7 @@ By YangXinMing {.text-intro}
 :::column
 ## 网络继电器开灯 
 ---
-:::div {.fadeInUp}
+:::div {.fadeInUp.tobuild}
 <video height="600" width="340" controls autoplay loop>
     <source src="/img/light.mp4" type="video/mp4">
 </video>
@@ -132,7 +132,7 @@ By YangXinMing {.text-intro}
 <slide class="content-center fullscreen">
 ## 视频制作
 <br/>
-:::div {.fadeInUp}
+:::div {.fadeInUp.tobuild}
 <br> 
 <video width="700" controls autoplay loop>
     <source src="/img/tmp720p.mp4" type="video/mp4">
@@ -142,7 +142,7 @@ By YangXinMing {.text-intro}
 <slide class="content-center fullscreen">
 ## videowall
 <br/>
-:::div {.fadeInUp}
+:::div {.fadeInUp.tobuild}
 <br/>
 <video width="700" controls autoplay loop>
     <source src="/img/videowall.mov" type="video/mp4">
@@ -179,6 +179,7 @@ By YangXinMing {.text-intro}
 <slide class="fullscreen">
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
 !![](/img/cover.png .aligncenter.fadeInUp.delay-400)
+</script>
 
 <slide :class="fullscreen">
 ## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
