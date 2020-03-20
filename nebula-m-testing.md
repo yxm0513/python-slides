@@ -4,6 +4,8 @@ transition: cards
 prismTheme: dark
 css:
     - /css/base.css
+js:
+    - /js/base.js
 plugins:
     - echarts
     - mermaid
@@ -16,7 +18,7 @@ plugins:
 ---
 By YangXinMing {.text-intro}
 
-<slide class="size-100" image="https://source.unsplash.com/n9WPPWiPPJw/">
+<slide class="fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
 <slide class="fullscreen">
@@ -30,7 +32,7 @@ By YangXinMing {.text-intro}
 
 :::
 
-<slide class="fullscreen">
+<slide class="bg-white fullscreen">
 ### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
 !![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
 
@@ -68,7 +70,7 @@ By YangXinMing {.text-intro}
  * 网络继电器信号联动控制
 :::
 
-<slide class="grid vertical-align">
+<slide class="grid vertical-align fullscreen">
 :::column
 ## 我们是如何测试的{.zoomIn} 
  * 15 x 摄像头
@@ -82,7 +84,7 @@ By YangXinMing {.text-intro}
 !![](/img/camera.png .fadeInUp.delay-800)
 :::
 
-<slide class="slide-top">
+<slide class="fullscreen">
 ## 从四个小的实践开始{.text-landing.content-center}
 <br>
 <br>
@@ -105,7 +107,7 @@ By YangXinMing {.text-intro}
 ---
 :::
 
-<slide class="grid vertical-align">
+<slide class="grid vertical-align fullscreen">
 :::column 
 ## 智能插座(反复断电)
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
@@ -117,7 +119,7 @@ By YangXinMing {.text-intro}
 </video>
 :::
 :::
-<slide class="grid vertical-align">
+<slide class="grid vertical-align fullscreen">
 :::column
 ## 网络继电器开灯 
 ---
@@ -127,8 +129,9 @@ By YangXinMing {.text-intro}
 </video>
 :::
 :::
-<slide class="slide-top content-center">
+<slide class="content-center fullscreen">
 ## 视频制作
+<br/>
 :::div {.fadeInUp}
 <br> 
 <video width="700" controls autoplay loop>
@@ -136,8 +139,9 @@ By YangXinMing {.text-intro}
 </video>
 :::
 
-<slide class="slide-top content-center">
+<slide class="content-center fullscreen">
 ## videowall
+<br/>
 :::div {.fadeInUp}
 <br/>
 <video width="700" controls autoplay loop>
@@ -145,9 +149,8 @@ By YangXinMing {.text-intro}
 </video>
 :::
 
-<slide>
-## 我们测试的目标{.text-landing} 
-<br>
+<slide class="fullscreen">
+## 我们测试的目标{.text-landing .aligncenter} 
 <br>
 :::flexblock {.metrics}
 
@@ -177,7 +180,7 @@ By YangXinMing {.text-intro}
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
 !![](/img/cover.png .aligncenter.fadeInUp.delay-400)
 
-<slide :class="">
+<slide :class="fullscreen">
 ## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
 <br>
 <br>
@@ -237,7 +240,7 @@ By YangXinMing {.text-intro}
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="">
+<slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 :::gallery {.build}
 !![](/img/log1.png .aligncenter.fadeInUp)
@@ -247,7 +250,7 @@ By YangXinMing {.text-intro}
 !![](/img/136.png .aligncenter.fadeInUp)
 :::
 
-<slide class="" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
+<slide class="fullscreen" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
 ### 我们是如何自动化开发的 {.content-left.zoomIn}
 
 <slide class="fullscreen">
@@ -271,8 +274,8 @@ By YangXinMing {.text-intro}
 </video>
 :::
 
-<slide image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
-:::div {.content-left}
+<slide class="" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
+:::div 
 ### 未来计划 
 <br>
 {.text-intro}
@@ -282,7 +285,7 @@ By YangXinMing {.text-intro}
  * 现有测试框架SEP 集成
 {.build.description}
 :::
-<slide :class="">
+<slide>
 :::card
 
 ### 测温版
@@ -294,11 +297,12 @@ By YangXinMing {.text-intro}
 ---
 ![](/img/thermo.png)
 
-<slide :class="slide-top content-center">
+<slide :class="fullscreen slide-top content-center">
 ### 难点
 
  * 场景拟合
  * 标记（数据，运行中标记）
+ * 稳定的环境
 {.build.description}
-<slide class="bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
+<slide class="fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks!{.aligncenter.text-landing.zoomIn}
