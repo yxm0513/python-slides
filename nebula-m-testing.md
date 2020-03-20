@@ -16,10 +16,39 @@ plugins:
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
 ---
-By YangXinMing {.text-intro}
+By YangXinMing {.text-intro}  
 
-<slide class="fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
+:::footer {.text-subtitle.alignright.green} 
+Powered by nodeppt 
+:::
+
+<slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
+:::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
+
+---
+:::div {.fadeInUp.build}
+
+标准版\: v1.0.0 v1.2.0 v2.0.0 
+
+MQTT版\: 
+
+社区办，测温版，蓝光版 \.etc 
+:::
+:::
+
+<slide>
+
+:::card
+
+#### 测温版
+
+ * 测温告警
+ * 佩戴口罩对比
+ * 未佩戴口罩告警
+{.build.description}
+---
+![](/img/thermo.png)
 
 <slide class="fullscreen">
 :::card {.card-70}
@@ -72,14 +101,14 @@ By YangXinMing {.text-intro}
 
 <slide class="grid vertical-align fullscreen">
 :::column
-## 我们是如何测试的{.zoomIn} 
+#### 我们是如何测试的{.zoomIn} 
  * 15 x 摄像头
  * 2 x 继电器
  * 1 x 台式机 + 1 x 显示器
  * 1 x 服务器
  * Nebula-M 若干
  * 路由器，交换机，智能插座若干
-{.description.build}
+{.description.text-intro.build}
 ---
 !![](/img/camera.png .fadeInUp.delay-800.tobuild)
 :::
@@ -277,7 +306,7 @@ By YangXinMing {.text-intro}
 
 <slide class="" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
 :::div 
-### 未来计划 
+### 未来合作计划 
 <br>
 {.text-intro}
 
@@ -286,25 +315,7 @@ By YangXinMing {.text-intro}
  * 现有测试框架SEP 集成
 {.build.description}
 :::
-<slide>
-:::card
 
-### 测温版
-
- * 测温告警 
- * 佩戴口罩对比 
- * 未佩戴口罩告警 
-{.build.description}
----
-![](/img/thermo.png)
-
-<slide :class="fullscreen slide-top content-center">
-### 难点
-
- * 场景拟合
- * 标记（数据，运行中标记）
- * 稳定的环境
-{.build.description}
 <slide class="fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks!{.aligncenter.text-landing.zoomIn}
 
