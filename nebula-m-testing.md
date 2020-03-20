@@ -292,7 +292,7 @@ MQTT版\:
 :::
 
 <slide class="fullscreen" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
-### 我们是如何自动化开发的 {.content-left.zoomIn}
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
 
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
