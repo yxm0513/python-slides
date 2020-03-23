@@ -21,5 +21,6 @@ body { background-color: red; }
     font-size : 1.2em !important;
 }
 .green {
-    color : green !important;
+    color : #ffddcc !important;
+    float : right;
 }
