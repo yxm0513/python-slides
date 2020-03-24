@@ -70,7 +70,7 @@ MQTT版\:  {.bounceInLeft}
 <slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
-:::column  {.build.fadeInUp}
+:::column {.build.fadeInUp}
 #### 视频接入
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
  * 支持视频编码格式 H.264
@@ -292,9 +292,14 @@ MQTT版\:  {.bounceInLeft}
 !![](/img/136.png .aligncenter.fadeInUp)
 :::
 
-<slide class="fullscreen" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
-
+<slide class="fullscreen aligncenter" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
+### &nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
+:::column 
+ * 高效协助
+ * 共识：风格一致
+ * 分离：框架智能，用例解耦
+{.build.zoomIn}
+:::
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
 :::span {.aligncenter.text-subtitle.zoomIn}
