@@ -246,11 +246,11 @@ MQTT版\:  {.bounceInLeft}
 :::
 
 <slide class="fullscreen">
-:::div{.fadeInUp.content-center.zoomIn}
+:::div{.fadeInUp}
 ### 我们的做法 {.aligncenter.text-landing}
 :::column {.build}
 #### 自动化{.content-left}
- * :覆盖\::{.text-label} --> 通过API覆盖超过80%以上的测试 
+ * :覆盖\::{.text-label} --> 通过API覆盖超过<span style="color:green"> **80%** </span> 以上的测试 
    * 功能，兼容性，准确率，稳定性，覆盖率
  * :优点\::{.text-label}
    * 有效的测试的覆盖, 回归
