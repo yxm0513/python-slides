@@ -156,7 +156,7 @@ MQTT版\:  {.bounceInLeft}
 
 ---
 :::div {.fadeInUp.tobuild.content-center}
-<video height="600" width="340" controls autoplay loop>
+<video height="600" width="340" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
 :::
@@ -169,7 +169,7 @@ MQTT版\:  {.bounceInLeft}
 {.description.build}
 ---
 :::div {.fadeInUp.tobuild}
-<video height="600" width="340" controls autoplay loop>
+<video height="600" width="340" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/light.mp4" type="video/mp4">
 </video>
 :::
@@ -179,7 +179,7 @@ MQTT版\:  {.bounceInLeft}
 <br/>
 :::div {.fadeInUp.tobuild}
 <br> 
-<video width="700" controls autoplay loop>
+<video width="700" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/tmp720p.mp4" type="video/mp4">
 </video>
 :::
@@ -189,7 +189,7 @@ MQTT版\:  {.bounceInLeft}
 <br/>
 :::div {.fadeInUp.tobuild}
 <br/>
-<video width="700" controls autoplay loop>
+<video width="700" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/videowall.mov" type="video/mp4">
 </video>
 :::
@@ -332,7 +332,7 @@ MQTT版\:  {.bounceInLeft}
 <br>
 <img src="/img/plan_arch.png" width=600>
 ---
-<video width="850" controls autoplay loop>
+<video width="850" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
 </video>
 :::
