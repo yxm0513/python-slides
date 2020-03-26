@@ -38,7 +38,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 MQTT版\:  {.bounceInLeft}
 
-社区办，测温版，蓝光版 \.etc {.bounceInLeft}
+社区版，测温版，蓝光版 \.etc {.bounceInLeft}
 
 <br>
 :::
@@ -311,9 +311,9 @@ MQTT版\:  {.bounceInLeft}
 <slide class="fullscreen aligncenter" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
 ### &nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
 :::column 
- * 高效协助
+ * 高效协作
  * 共识：风格一致
- * 分离：框架智能，用例解耦
+ * 分离：框架,用例解耦
 {.build.zoomIn}
 :::
 <slide class="fullscreen">
