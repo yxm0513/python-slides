@@ -43,18 +43,16 @@ MQTT版\:  {.bounceInLeft}
 :::
 :::
 
-<slide>
+<slide class="" image="/img/thermo.png .right">
 
-:::card
-
-#### 测温版
-
- * 测温告警 {.bounceInLeft}
- * 佩戴口罩对比 {.bounceInLeft}
- * 未佩戴口罩告警 {.bounceInLeft}
-{.build.description}
----
-![](/img/thermo.png)
+:::div
+#### 测温版{.bounceInLeft}
+<br>
+ * 测温告警 {.tobuild.bounceInLeft}
+ * 佩戴口罩对比 {.tobuild.bounceInLeft}
+ * 未佩戴口罩告警 {.tobuild.bounceInLeft}
+{.description}
+:::
 
 <slide class="fullscreen">
 :::card {.card-70}
@@ -75,8 +73,8 @@ MQTT版\:  {.bounceInLeft}
 <slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
-:::column {.build.fadeInUp}
-#### 视频接入
+:::column {.build}
+#### 视频接入 
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
  * 支持视频编码格式 H.264
  * 支持最大视频分辨率 1080P
@@ -103,6 +101,7 @@ MQTT版\:  {.bounceInLeft}
 
 #### 信号联动
  * 网络继电器信号联动控制
+
 :::
 <slide class="grid vertical-align fullscreen">
 :::column
