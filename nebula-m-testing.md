@@ -246,35 +246,42 @@ MQTT版\:  {.bounceInLeft}
 :::
 
 <slide class="fullscreen">
-:::div{.fadeInUp}
-### 我们的做法 {.aligncenter.text-landing}
-:::column {.build}
-#### 自动化{.content-left}
+### 我们的做法 {.aligncenter.text-landing.fadeInUp}
+:::column
+#### 自动化{.content-left.tobuild}
  * :覆盖\::{.text-label}
+{.description.build}
    * 通过API覆盖超过<span style="color:green"> **80%** </span> 以上的测试 
    * 功能，兼容性，准确率，稳定性，覆盖率 .etc
- * :优点\::{.text-label}
+ * :优点\::{.text-label.build}
    * 有效的测试的覆盖, 回归
    * 测试的稳定性
    * 完成一些手动不可能完成的事情
- * :缺点\::{.text-label}
+ * :缺点\::{.text-label.build}
    * 需要开发的时间
+----
  * :需要做到\::{.text-label}
+{.description.tobuild}
    * 稳定性
    * 可维护性
    * 易用性
    * 可扩展性
----
-#### 手动{.content-left}
+
+<slide class="fullscreen">
+### 我们的做法 {.aligncenter.text-landing.fadeInUp}
+:::column
+#### 手动{.content-left.tobuild}
   * 延时
   * 网络 [:fa-file-pdf-o:](/net.pdf)
   * Web(做了部分的自动化)
   * 对接
+{.description.tobuild}
 
-#### 其他{.content-left}
+---
+#### 其他{.content-left.tobuild}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
-:::
+{.description.tobuild}
 :::
 <slide class="fullscreen">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
@@ -320,7 +327,7 @@ MQTT版\:  {.bounceInLeft}
 > [:fa-file-pdf-o: Deprecated Plan](/test.pdf) 
 <br>
 <br>
-!![](/img/plan_arch.png .alignright)
+<img src="/img/plan_arch.png" width=600>
 ---
 <video width="850" controls autoplay loop>
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
