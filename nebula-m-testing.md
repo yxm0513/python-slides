@@ -5,6 +5,7 @@ prismTheme: dark
 css:
     - /css/base.css
 js:
+    - /js/zoom.js
     - /js/base.js
 plugins:
     - echarts
@@ -16,13 +17,13 @@ plugins:
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
 
-By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG IDEA\] {.text-intro} 
+By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG-NP-IDEA\] {.text-intro} 
 
 
 ---
 
 :::div
-<img src="/img/nodeppt_md.png" width="200" class="bounceInLeft slow"> 
+<img src="/img/nodeppt_md.png" width="200" class="bounceInLeft slow" onclick="myfunction(this)"> 
 :::
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
@@ -43,9 +44,12 @@ MQTT版\:  {.bounceInLeft}
 :::
 :::
 
-<slide class="" image="/img/thermo.png .right">
+<slide class="grid vertical-align fullscreen">
+:::column
+!![](/img/thermo.png .fadeInUp.delay-400)
 
-:::div
+---
+:::div {.alignright}
 #### 测温版{.bounceInLeft}
 <br>
  * 测温告警 {.tobuild.bounceInLeft}
@@ -54,7 +58,7 @@ MQTT版\:  {.bounceInLeft}
 {.description}
 :::
 
-<slide class="fullscreen">
+<slide class="grid vertical-align fullscreen">
 :::card {.card-70}
 
 ## Nebula-M 是什么？
@@ -106,12 +110,12 @@ MQTT版\:  {.bounceInLeft}
 <slide class="grid vertical-align fullscreen">
 :::column
 #### 我们是如何测试的{.zoomIn} 
- * 15 x 摄像头
- * 2 x 继电器
- * 1 x 台式机 + 1 x 显示器
- * 1 x 服务器
- * Nebula-M 若干
- * 路由器，交换机，智能插座若干
+ * 15 x 摄像头 {.fadeInUp} 
+ * 2 x 继电器 {.fadeInUp}
+ * 1 x 台式机 + 1 x 显示器{.fadeInUp}
+ * 1 x 服务器{.fadeInUp}
+ * Nebula-M 若干{.fadeInUp}
+ * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
 !![](/img/camera.png .fadeInUp.delay-800.tobuild)
@@ -143,9 +147,9 @@ MQTT版\:  {.bounceInLeft}
 <slide class="grid vertical-align fullscreen">
 :::column 
 ## 智能插座
- * [:fa-file-pdf-o: 插座文档](/plug.pdf) 
- * 之前手动盒子测试断电，每次最多测几十次
- * 通过自动化之后，可以反复断电1晚
+ * [:fa-file-pdf-o: 插座文档](/plug.pdf) {.fadeInUp}
+ * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 手动盒子测试断电，每次最多测几十次 {.fadeInUp}
+ * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 通过自动化之后，可以反复断电1晚 {.fadeInUp}
 {.description.build}
 
 !![](/img/plug.png .aligncenter.fadeInUp.delay-400.size-80.tobuild)
@@ -160,8 +164,8 @@ MQTT版\:  {.bounceInLeft}
 <slide class="grid vertical-align fullscreen">
 :::column
 ## 网络继电器开灯 
- * 之前只能通过听继电器的滴答声来确定触发
- * 现在观察灯的闪烁就可以了解触发情况
+ * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 只能通过听继电器的滴答声来确定触发 {.fadeInUp}
+ * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 现在观察灯的闪烁就可以了解触发情况 {.fadeInUp}
 {.description.build}
 ---
 :::div {.fadeInUp.tobuild}
@@ -250,7 +254,7 @@ MQTT版\:  {.bounceInLeft}
 #### 自动化{.content-left.tobuild}
  * :覆盖\::{.text-label}
 {.description.build}
-   * 通过API覆盖超过<span style="color:green"> **80%** </span> 以上的测试 
+   * 通过API覆盖超过<span style="font-size:3rem; color:lawngreen" class="fadeInUp"> **80%** </span> 以上的测试 
    * 功能，兼容性，准确率，稳定性，覆盖率 .etc
  * :优点\::{.text-label.build}
    * 有效的测试的覆盖, 回归
@@ -315,7 +319,7 @@ MQTT版\:  {.bounceInLeft}
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
 :::span {.aligncenter.text-subtitle.zoomIn}
-[Source Code](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
+[![](/img/gitlab-icon-rgb.png){.avatar-40}](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
 :::
 !![](/img/testcase.png .aligncenter.fadeInUp.delay-400.size-80)
 
@@ -346,5 +350,6 @@ MQTT版\:  {.bounceInLeft}
 :::
 
 <slide class="fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
-# Thanks!{.aligncenter.text-landing.zoomIn}
+# Thanks! {.aligncenter.text-landing.zoomIn} 
+[![](/img/gitlab-icon-rgb.png){.avatar-80}](http://gitlab.sz.sensetime.com/yangxinming/testing-slides)
 

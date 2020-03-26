@@ -8,6 +8,11 @@
         //});
         //classList.add(cls);
     };
+    window.myfunction = function(e){
+        zoom.to({
+              element: e
+        });
+    }
 })();
 
 document.addEventListener("DOMContentLoaded", function(event) {
