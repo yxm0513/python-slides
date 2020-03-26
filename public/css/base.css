@@ -4,8 +4,17 @@ body { background-color: red; }
     width: 20%;
 }
 .column ul li {
-    list-style: disc !important;
+    //list-style: disc !important;
+    //list-style-image: url(https://img.icons8.com/material-outlined/24/000000/christmas-star.png) !important;
     margin-left: 3.2rem !important;
+}
+
+ul li:before {
+  font-family: FontAwesome;
+  content: "\f138";
+  left : 1em;
+  color: gary;
+  margin-right : 8px;
 }
 
 .myfa {
