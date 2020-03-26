@@ -13,7 +13,7 @@ plugins:
     - katex
 
 
-<slide class="bg-black-blue aligncenter" image="https://source.unsplash.com/C1HhAQrbykQ/ .bg-primary">
+<slide class="bg-black-blue aligncenter zoomIn" image="https://source.unsplash.com/C1HhAQrbykQ/ .bg-primary">
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
 
@@ -27,7 +27,7 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 :::
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
-<slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
+<slide class="grid vertical-align fullscreen slideInLeft" image="https://source.unsplash.com/n9WPPWiPPJw/">
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
@@ -44,7 +44,7 @@ MQTT版\:  {.bounceInLeft}
 :::
 :::
 
-<slide class="grid vertical-align fullscreen">
+<slide class="grid vertical-align fullscreen slideInRight">
 :::column
 !![](/img/thermo.png .fadeInUp.delay-400)
 
@@ -58,7 +58,7 @@ MQTT版\:  {.bounceInLeft}
 {.description}
 :::
 
-<slide class="grid vertical-align fullscreen">
+<slide class="grid vertical-align fullscreen slideInLeft">
 :::card {.card-70}
 
 ## Nebula-M 是什么？
@@ -69,12 +69,12 @@ MQTT版\:  {.bounceInLeft}
 
 :::
 
-<slide class="bg-white fullscreen">
+<slide class="bg-white fullscreen slideInRight">
 ### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
 !![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
 
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInLeft">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
 :::column {.build}
@@ -121,7 +121,7 @@ MQTT版\:  {.bounceInLeft}
 !![](/img/camera.png .fadeInUp.delay-800.tobuild)
 :::
 
-<slide class="fullscreen">
+<slide class="fullscreen zoomIn">
 ## 从四个小的实践开始{.text-landing.content-center}
 <br>
 <br>
@@ -144,7 +144,7 @@ MQTT版\:  {.bounceInLeft}
 ---
 :::
 
-<slide class="grid vertical-align fullscreen">
+<slide class="grid vertical-align fullscreen slideInLeft">
 :::column 
 ## 智能插座
  * [:fa-file-pdf-o: 插座文档](/plug.pdf) {.fadeInUp}
@@ -161,7 +161,7 @@ MQTT版\:  {.bounceInLeft}
 </video>
 :::
 :::
-<slide class="grid vertical-align fullscreen">
+<slide class="grid vertical-align fullscreen slideInRight">
 :::column
 ## 网络继电器开灯 
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 只能通过听继电器的滴答声来确定触发 {.fadeInUp}
@@ -174,7 +174,7 @@ MQTT版\:  {.bounceInLeft}
 </video>
 :::
 :::
-<slide class="content-center fullscreen">
+<slide class="content-center fullscreen slideInLeft">
 ## 视频制作
 <br/>
 :::div {.fadeInUp.tobuild}
@@ -184,7 +184,7 @@ MQTT版\:  {.bounceInLeft}
 </video>
 :::
 
-<slide class="content-center fullscreen">
+<slide class="content-center fullscreen slideInRight">
 ## videowall
 <br/>
 :::div {.fadeInUp.tobuild}
@@ -194,7 +194,7 @@ MQTT版\:  {.bounceInLeft}
 </video>
 :::
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInLeft">
 ## 我们测试的目标{.text-landing .aligncenter} 
 <br>
 :::flexblock {.metrics}
@@ -221,12 +221,12 @@ MQTT版\:  {.bounceInLeft}
 <br>
 ## 保证产品质量，做到心里有数 {.tobuild .text-landing .content-center .zoomIn.delay-2000}
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInRight">
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
 !![](/img/cover.png .aligncenter.fadeInUp.delay-400)
 </script>
 
-<slide :class="fullscreen">
+<slide :class="fullscreen slideInLeft">
 ## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
 <br>
 <br>
@@ -248,7 +248,7 @@ MQTT版\:  {.bounceInLeft}
 
 :::
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInRight">
 ### 我们的做法 {.aligncenter.text-landing.fadeInUp}
 :::column
 #### 自动化{.content-left.tobuild}
@@ -270,7 +270,7 @@ MQTT版\:  {.bounceInLeft}
    * 易用性
    * 可扩展性
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInLeft">
 ### 我们的做法 {.aligncenter.text-landing.fadeInUp}
 :::column
 #### 手动{.content-left.tobuild}
@@ -286,19 +286,19 @@ MQTT版\:  {.bounceInLeft}
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 {.description.tobuild}
 :::
-<slide class="fullscreen">
+<slide class="fullscreen slideInRight">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/py_start.png .aligncenter.fadeInUp.delay-400.size-60)
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInLeft">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/perl_start.png .aligncenter.fadeInUp.delay-400.size-80)
 
-<slide class="fullscreen">
+<slide class="fullscreen zoomIn">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 !![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
 
-<slide class="fullscreen">
+<slide class="fullscreen slideInLeft">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 :::gallery {.build}
 !![](/img/log1.png .aligncenter.fadeInUp)
@@ -308,7 +308,7 @@ MQTT版\:  {.bounceInLeft}
 !![](/img/136.png .aligncenter.fadeInUp)
 :::
 
-<slide class="fullscreen aligncenter" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
+<slide class="fullscreen aligncenter slideInRight" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
 ### &nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
 :::column 
  * 高效协作
@@ -323,7 +323,7 @@ MQTT版\:  {.bounceInLeft}
 :::
 !![](/img/testcase.png .aligncenter.fadeInUp.delay-400.size-80)
 
-<slide class="fullscreen">
+<slide class="fullscreen zoomIn">
 ### 我们之前的计划 {.content-center}
 <br>
 :::column {.sm .aligncenter .fadeInUp .build}
@@ -337,7 +337,7 @@ MQTT版\:  {.bounceInLeft}
 </video>
 :::
 
-<slide class="" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
+<slide class="slideInLeft" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
 :::div 
 ### 未来合作计划 
 <br>
@@ -349,7 +349,7 @@ MQTT版\:  {.bounceInLeft}
 {.build.description}
 :::
 
-<slide class="fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
+<slide class="slideInRight fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks! {.aligncenter.text-landing.zoomIn} 
 [![](/img/gitlab-icon-rgb.png){.avatar-80}](http://gitlab.sz.sensetime.com/yangxinming/testing-slides)
 
