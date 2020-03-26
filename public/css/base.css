@@ -16,6 +16,20 @@ body { background-color: red; }
   margin-left: 3.2rem !important;
 }
 
+.mydiv ul li:before {
+  font-family: FontAwesome;
+  content: "\f138";
+  left : 1em;
+  color: gary;
+  margin-right : 8px;
+}
+
+.mydiv ul li {
+  list-style-type : none;
+  font-size: 2.3rem;
+  margin-left: 3.2rem !important;
+}
+
 .myfa {
     font-size: 2em;
 }

@@ -27,6 +27,18 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 :::
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
+
+
+<slide class="grid vertical-align content-center fullscreen">
+## Agenda {.zoomIn}
+---
+:::div {.mydiv}
+ * 关于Nebula-M {.bounceInRight}
+ * 关于我们的测试实践{.bounceInRight}
+ * Q&A {.bounceInRight}
+{.build}
+:::
+
 <slide class="grid vertical-align fullscreen slideInLeft" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
