@@ -51,7 +51,7 @@ MQTT版\:  {.bounceInLeft}
 ---
 :::div {.alignright}
 #### 测温版{.bounceInLeft}
-<br>
+ * 测温相机接入 {.tobuild.bounceInLeft}
  * 测温告警 {.tobuild.bounceInLeft}
  * 佩戴口罩对比 {.tobuild.bounceInLeft}
  * 未佩戴口罩告警 {.tobuild.bounceInLeft}
