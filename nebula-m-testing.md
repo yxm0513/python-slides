@@ -86,7 +86,7 @@ MQTT版\:  {.bounceInLeft}
 !![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
 
 
-<slide class="fullscreen slideInLeft">
+<slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
 ---
 :::column {.build}
@@ -122,8 +122,8 @@ MQTT版\:  {.bounceInLeft}
 <slide class="grid vertical-align fullscreen">
 :::column
 #### 我们是如何测试的{.zoomIn} 
- * 15 x 摄像头 {.fadeInUp} 
- * 2 x 继电器 {.fadeInUp}
+ * 15+ x 摄像头 {.fadeInUp} 
+ * 2+ x 继电器 {.fadeInUp}
  * 1 x 台式机 + 1 x 显示器{.fadeInUp}
  * 1 x 服务器{.fadeInUp}
  * Nebula-M 若干{.fadeInUp}
@@ -159,9 +159,9 @@ MQTT版\:  {.bounceInLeft}
 <slide class="grid vertical-align fullscreen slideInLeft">
 :::column 
 ## 智能插座
- * [:fa-file-pdf-o: 插座文档](/plug.pdf) {.fadeInUp}
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 手动盒子测试断电，每次最多测几十次 {.fadeInUp}
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 通过自动化之后，可以反复断电1晚 {.fadeInUp}
+ * [:fa-file-pdf-o: 插座文档](/plug.pdf) {.fadeInUp}
 {.description.build}
 
 !![](/img/plug.png .aligncenter.fadeInUp.delay-400.size-80.tobuild)
