@@ -16,10 +16,15 @@ plugins:
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
 
-Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
+By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG IDEA\] {.text-intro} 
+
 
 ---
-By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing {.text-intro.alignright} 
+
+:::div
+<img src="/img/nodeppt_md.png" width="200" class="bounceInLeft slow"> 
+:::
+Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
 :::column {.white}
