@@ -199,20 +199,20 @@ MQTT版\:  {.bounceInLeft}
 <br>
 :::flexblock {.metrics}
 
-:::div {.animated.zoomIn}
+:::div {.animated.zoomIn.delay-400}
 
 :fa-clock-o:
 
 有限时间
 
 ----
-:::div {.animated.zoomIn.delay-400}
+:::div {.animated.zoomIn.delay-800}
 :fa-users:
 
 有限人力
 
 ----
-:::div {.animated.zoomIn.delay-800}
+:::div {.animated.zoomIn.delay-1200}
 :fa-tasks:
 
 保证覆盖
