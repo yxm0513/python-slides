@@ -1,12 +1,12 @@
 (function() {
     window.changeBackgroundColor = cls => {
-        //const classList = wsInstance.currentSlide_.el.classList;
-        //classList.forEach(a => {
-        //    if (/^bg-/.test(a)) {
-        //        classList.remove(a);
-        //    }
-        //});
-        //classList.add(cls);
+        const classList = window.wsInstance.el.classList;
+        classList.forEach(a => {
+            if (/^bg-/.test(a)) {
+                classList.remove(a);
+            }
+        });
+        classList.add(cls);
     };
     window.myfunction = function(e){
         zoom.to({
@@ -15,6 +15,8 @@
     }
 })();
 
-document.addEventListener("DOMContentLoaded", function(event) {
+document.addEventListener("load", function(event) {
+    console.log(window.wsInstance.el)
+    console.log('event loaded')
 	changeBackgroundColor('bg-apple')
 });

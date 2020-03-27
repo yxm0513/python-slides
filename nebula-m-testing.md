@@ -13,7 +13,7 @@ plugins:
     - katex
 
 
-<slide class="bg-black-blue aligncenter zoomIn" image="https://source.unsplash.com/C1HhAQrbykQ/ .bg-primary">
+<slide class="bg-black-blue aligncenter zoomIn" image="https://source.unsplash.com/C1HhAQrbykQ/">
 
 # 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
 
@@ -81,7 +81,7 @@ MQTT版\:  {.bounceInLeft}
 
 :::
 
-<slide class="bg-white fullscreen slideInRight">
+<slide class="fullscreen slideInRight">
 ### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
 !![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
 
@@ -313,11 +313,14 @@ MQTT版\:  {.bounceInLeft}
 <slide class="fullscreen slideInLeft">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 :::gallery {.build}
+<span onclick="myfunction(this)">
 !![](/img/log1.png .aligncenter.fadeInUp)
+</span>
 
 ----
-
-!![](/img/136.png .aligncenter.fadeInUp)
+<span onclick="myfunction(this)">
+!![](/img/136.png .aligncenter.fadeInUp.bg-white.size-60)
+</span>
 :::
 
 <slide class="fullscreen aligncenter slideInRight" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
@@ -342,7 +345,8 @@ MQTT版\:  {.bounceInLeft}
 > [:fa-file-pdf-o: Deprecated Plan](/test.pdf) 
 <br>
 <br>
-<img src="/img/plan_arch.png" width=600>
+<img src="/img/plan_arch.png" width=600i onclick="myfunction(this)">
+
 ---
 <video width="850" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
@@ -361,7 +365,7 @@ MQTT版\:  {.bounceInLeft}
 {.build.description}
 :::
 
-<slide class="slideInRight fullscreen bg-black-blue aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
+<slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks! {.aligncenter.text-landing.zoomIn} 
 [![](/img/gitlab-icon-rgb.png){.avatar-80}](http://gitlab.sz.sensetime.com/yangxinming/testing-slides)
 
