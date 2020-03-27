@@ -71,7 +71,7 @@ MQTT版\:  {.bounceInLeft}
 :::
 
 <slide class="grid vertical-align fullscreen slideInLeft">
-:::card {.card-70}
+:::card {.card-70 .bg-blue}
 
 ## Nebula-M 是什么？
  * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
@@ -83,8 +83,7 @@ MQTT版\:  {.bounceInLeft}
 
 <slide class="fullscreen slideInRight">
 ### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
-!![](/img/deploy.png .aligncenter.fadeInUp.delay-400) 
-
+<img src="/img/deploy.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
 
 <slide class="fullscreen">
 ### 产品功能 {.aligncenter.text-landing.zoomIn} 
@@ -130,7 +129,7 @@ MQTT版\:  {.bounceInLeft}
  * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
-!![](/img/camera.png .fadeInUp.delay-800.tobuild)
+<img src="/img/camera.png" class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
 :::
 
 <slide class="fullscreen zoomIn">
@@ -235,7 +234,7 @@ MQTT版\:  {.bounceInLeft}
 
 <slide class="fullscreen slideInRight">
 ### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
-!![](/img/cover.png .aligncenter.fadeInUp.delay-400)
+<img src="/img/cover.png" class="aligncenter fadeInUp delay-800" onclick="myfunction(this)">
 </script>
 
 <slide :class="fullscreen slideInLeft">
@@ -243,7 +242,7 @@ MQTT版\:  {.bounceInLeft}
 <br>
 <br>
 :::gallery-overlay {.build}
-![](/img/acc.png)
+<img src="/img/acc.png" onclick="myfunction(this)">
 ## 准确率测试
 
 ---
@@ -251,11 +250,11 @@ MQTT版\:  {.bounceInLeft}
 <br>
 <br>
 <br>
-![](/img/codecoverage.png)
+<img src="/img/codecoverage.png" onclick="myfunction(this)">
 ## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
 
 ---
-![](/img/delay.png)
+<img src="/img/delay.png" onclick="myfunction(this)">
 ## 延时测试
 
 :::
@@ -300,43 +299,44 @@ MQTT版\:  {.bounceInLeft}
 :::
 <slide class="fullscreen slideInRight">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/py_start.png .aligncenter.fadeInUp.delay-400.size-60)
+<img src="/img/py_start.png" class="aligncenter fadeInUp delay-400 size-60" onclick="myfunction(this)">
 
 <slide class="fullscreen slideInLeft">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/perl_start.png .aligncenter.fadeInUp.delay-400.size-80)
+<img src="/img/perl_start.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
 
 <slide class="fullscreen zoomIn">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-!![](/img/run_help.png .aligncenter.fadeInUp.delay-400)
+<img src="/img/run_help.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
 
 <slide class="fullscreen slideInLeft">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 :::gallery {.build}
-<span onclick="myfunction(this)">
-!![](/img/log1.png .aligncenter.fadeInUp)
-</span>
+<img src="/img/log1.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
 
 ----
-<span onclick="myfunction(this)">
-!![](/img/136.png .aligncenter.fadeInUp.bg-white.size-60)
-</span>
+<img src="/img/136.png" class="aligncenter fadeInUp delay-400 bg-white size-60" onclick="myfunction(this)">
 :::
 
-<slide class="fullscreen aligncenter slideInRight" image="/img/script.png .right.right-10.fadeInUp.delay-400.size-60">
-### &nbsp; 我们是如何自动化开发的 {.content-left.zoomIn}
-:::column 
+<slide class="fullscreen aligncenter slideInRight">
+:::column {.content-center.zoomIn}
+#### 我们是如何自动化开发的
+<br>
+<br>
  * 高效协作
  * 共识：风格一致
  * 分离：框架,用例解耦
 {.build.zoomIn}
+---
+<img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
 :::
+
 <slide class="fullscreen">
 ### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
 :::span {.aligncenter.text-subtitle.zoomIn}
 [![](/img/gitlab-icon-rgb.png){.avatar-40}](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
 :::
-!![](/img/testcase.png .aligncenter.fadeInUp.delay-400.size-80)
+<img src="/img/testcase.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
 
 <slide class="fullscreen zoomIn">
 ### 我们之前的计划 {.content-center}
@@ -345,7 +345,7 @@ MQTT版\:  {.bounceInLeft}
 > [:fa-file-pdf-o: Deprecated Plan](/test.pdf) 
 <br>
 <br>
-<img src="/img/plan_arch.png" width=600i onclick="myfunction(this)">
+<img src="/img/plan_arch.png" width=600 onclick="myfunction(this)">
 
 ---
 <video width="850" controls autoplay loop onclick="myfunction(this)">
