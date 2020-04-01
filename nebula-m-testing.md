@@ -39,7 +39,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.build}
 :::
 
-<slide class="grid vertical-align fullscreen slideInLeft" image="https://source.unsplash.com/n9WPPWiPPJw/">
+<slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
