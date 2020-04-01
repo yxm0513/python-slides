@@ -3,10 +3,10 @@ speaker: yangxinming
 transition: cards
 prismTheme: dark
 css:
-    - /css/base.css
+    - css/base.css
 js:
-    - /js/zoom.js
-    - /js/base.js
+    - js/zoom.js
+    - js/base.js
 plugins:
     - echarts
     - mermaid
@@ -44,16 +44,12 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
 ---
-:::div {.fadeInUp.build}
-
-标准版\: v1.0.0 v1.2.0 v2.0.0 {.bounceInLeft}
-
-MQTT版\:  {.bounceInLeft}
-
-社区版，测温版，蓝光版 \.etc {.bounceInLeft}
-
-<br>
-:::
+:::div 
+#### Release
+ * 标准版\: v1.0.0 v1.2.0 v2.0.0 {.bounceInLeft.tobuild}
+ * QTT版\:  {.bounceInLeft.tobuild}
+ * 社区版，测温版，蓝光版 \.etc {.bounceInLeft.tobuild}
+{.description}
 :::
 
 <slide class="grid vertical-align fullscreen slideInRight">
