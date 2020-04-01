@@ -61,7 +61,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <slide class="grid vertical-align fullscreen slideInLeft">
 <div class="aligncenter content-center">
 <h4> Timeline </h4>
-<ul class="timeline">
+<ul class="timeline build">
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
@@ -135,7 +135,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
     <li>
         <div class="direction-r">
             <div class="flag-wrapper">
-                <span class="flag">MQTT V1.2,Telecom V1.2</span>
+                <span class="flag">MQTT/Telecom V1.2</span>
                 <span class="time-wrapper"><span class="time">2019.12.17</span></span>
             </div>
             <div class="desc">MQTT 版本随主线升级, Telecom 需求支持</div>
@@ -300,7 +300,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 ---
 :::div {.fadeInUp.tobuild.content-center}
-<video height="600" width="340" controls autoplay loop onclick="myfunction(this)">
+<video height="600" width="340" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/plug.mp4" type="video/mp4">
 </video>
 :::
@@ -313,7 +313,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.description.build}
 ---
 :::div {.fadeInUp.tobuild}
-<video height="600" width="340" controls autoplay loop onclick="myfunction(this)">
+<video height="600" width="340" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/light.mp4" type="video/mp4">
 </video>
 :::
@@ -323,7 +323,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br/>
 :::div {.fadeInUp}
 <br> 
-<video width="700" controls autoplay loop onclick="myfunction(this)">
+<video width="700" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/tmp720p.mp4" type="video/mp4">
 </video>
 :::
@@ -333,7 +333,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br/>
 :::div {.fadeInUp}
 <br/>
-<video width="700" controls autoplay loop onclick="myfunction(this)">
+<video width="700" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/videowall.mov" type="video/mp4">
 </video>
 :::
@@ -456,10 +456,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br>
 #### 我们是如何自动化开发的
 <br>
- * 高效协作
- * 共识：风格一致
- * 解耦：框架,用例
-{.build.zoomIn}
+ * 高效协作{.fadeInUp.tobuild}
+   * 共识：风格一致 {.fadeInUp}
+   * 解耦：框架,用例{.fadeInUp}
+{.build}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
 :::
@@ -481,7 +481,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <img src="/img/plan_arch.png" width=600 onclick="myfunction(this)">
 
 ---
-<video width="850" controls autoplay loop onclick="myfunction(this)">
+<video width="850" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
 </video>
 :::
@@ -490,9 +490,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column
 ### 未来合作计划 
 <br>
- * Viper-Lite SEP
- * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架
- * 现有测试框架SEP 集成
+ * Viper-Lite SEP {.fadeInUp}
+ * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架 {.fadeInUp}
+ * 现有测试框架SEP 集成 {.fadeInUp}
 {.build.description}
 :::
 
