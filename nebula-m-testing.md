@@ -39,18 +39,170 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.build}
 :::
 
-<slide class="grid vertical-align fullscreen slideInLeft" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
+<slide class="grid vertical-align fullscreen slideInLeft" image="https://source.unsplash.com/n9WPPWiPPJw/">
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
 ---
 :::div 
-#### Release
- * 标准版\: v1.0.0 v1.2.0 v2.0.0 {.bounceInLeft.tobuild}
- * QTT版\:  {.bounceInLeft.tobuild}
- * 社区版，测温版，蓝光版 \.etc {.bounceInLeft.tobuild}
+#### Releases
+<br>
+*From 2019.05.30 To 2020.03.26 More Than 16 Releases* {.bounceInLeft.tobuild}
+ * 硬件 {.bounceInLeft.tobuild}
+   * 一代TX2平台, 二代3559A平台 {.bounceInLeft.tobuild}
+   * 研扬，宝德，天地 {.bounceInLeft.tobuild}
+ * 软件  {.bounceInLeft.tobuild}
+   * 标准版\: v1.0.0 v1.2.0 v1.3.0 v2.0.0 v2.0.x {.bounceInLeft.tobuild}
+   * MQTT版\: v1.0.0 v1.2.0 v2.0.0 {.bounceInLeft.tobuild}
+   * 国际版，社区版，测温版，蓝光版 \.etc {.bounceInLeft.tobuild}
 {.description}
 :::
+
+<slide class="grid vertical-align fullscreen slideInLeft">
+<div class="aligncenter content-center">
+<h4> Timeline </h4>
+<ul class="timeline">
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">标准版 V1.0.0 </span>
+				<span class="time-wrapper"><span class="time">2019.05.30</span></span>
+			</div>
+			<div class="desc">仅仅对接深广需求，简单网络配置,基本功能实现 (研扬&宝德)</div>
+		</div>
+	</li>
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">标准版 V1.1.0</span>
+				<span class="time-wrapper"><span class="time">2019.07.22</span></span>
+			</div>
+			<div class="desc">
+定制版-对接SF&SU
+定制版-mqtt对接深广用户
+标准版，临时给出支持案场项目
+定制版-mqtt对接深广用户
+定制版-mqtt对接深广用户
+</div>
+		</div>
+	</li>
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">标准版 V1.1.2</span>
+				<span class="time-wrapper"><span class="time">2019.09.02</span></span>
+			</div>
+			<div class="desc">1.【新功能】抓拍策略与通道绑定
+2.【新功能】批量入库支持属性提取
+3.【新功能】支持最小人脸像素设置
+4.【新功能】视频流接入支持GB28181协议
+5. 【新增】针对纯抓拍模式，ROI默认为全尺寸
+</div>
+		</div>
+	</li>
+    <li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">标准版 V1.1.3</span>
+                <span class="time-wrapper"><span class="time">2019.09.07</span></span>
+            </div>
+            <div class="desc">
+相机接入，ONVIF
+</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">MQTT V1.1.1</span>
+                <span class="time-wrapper"><span class="time">2019.09.29</span></span>
+            </div>
+            <div class="desc">MQTT 推送修改，问题修复</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">标准版 V1.2</span>
+                <span class="time-wrapper"><span class="time">2019.11.29</span></span>
+            </div>
+            <div class="desc">
+人脸属性
+人体属性
+</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">MQTT V1.2,Telecom V1.2</span>
+                <span class="time-wrapper"><span class="time">2019.12.17</span></span>
+            </div>
+            <div class="desc">MQTT 版本随主线升级, Telecom 需求支持</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">标准版 V2.0.1</span>
+                <span class="time-wrapper"><span class="time">2020.01.21</span></span>
+            </div>
+            <div class="desc">
+新硬件适配，接入协议
+抓拍机接入
+支持GB28181
+鉴权
+视频图片流混合接入
+人体特征
+人脸信息
+网络继电器状态
+</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">测温版 V1.0</span>
+                <span class="time-wrapper"><span class="time">2020.02.13</span></span>
+            </div>
+            <div class="desc">
+支持智能测温检测告警
+支持未佩戴口罩检测告警
+支持热成像相机视频流接入预览， 
+支持SDK接入测温告警事件
+V1.0版本最大支持2路热成像相机接入处理
+支持热成像相机可见光视频预览
+支持热成像相机热成像视频预览
+支持测温疑似发热弹窗预警，并列表展示
+支持测温预警复核确认功能，复核确认疑似发热人员正常/发热状态并录入系统显示
+支持未佩戴口罩告警弹窗提示，并列表展示
+V1.0版本仅支持100条发热预警缓存，满覆盖方式，首页预警列表展示，不在历史记录查询
+V1.0版本暂不支持测温历史记录检索功能
+</div>
+        </div>
+    </li>
+    <li>
+        <div class="direction-l">
+            <div class="flag-wrapper">
+                <span class="flag">测温版 V1.1</span>
+                <span class="time-wrapper"><span class="time">2020.02.19</span></span>
+            </div>
+            <div class="desc">
+新增支持戴口罩人脸识别
+优化最大支持4路热成像相机接入处理
+新增支持戴口罩人脸比对告警弹窗提示，并首页列表展示
+支持测温疑似发热记录存储和分类（复核确认、正常、发热三类状态）
+支持未佩戴口罩告警记录存储
+支持戴口罩人脸识别告警记录存储
+支持测温历史记录按时间、通道、状态查询检索
+支持未佩戴口罩、识别告警记录按时间、通道查询检索
+各类告警类型统计报表功能
+新增所有功能API接口开放
+</div>
+        </div>
+    </li>
+</ul>
+</div>
 
 <slide class="grid vertical-align fullscreen slideInRight">
 :::column
@@ -67,7 +219,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen slideInLeft">
-:::card {.card-70 .bg-blue}
+:::card {.card-70 .bg-blue .fadeInUp}
 
 ## Nebula-M 是什么？
  * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}

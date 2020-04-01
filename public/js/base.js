@@ -17,8 +17,8 @@
 
 document.addEventListener("load", function(event) {
     console.log(window.wsInstance.el)
-    console.log('event loaded')
-	changeBackgroundColor('bg-apple')
+    //console.log('event loaded')
+	//changeBackgroundColor('bg-apple')
 });
 
 document.addEventListener( 'keydown', function( event ) {
