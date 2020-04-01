@@ -42,7 +42,18 @@ body { background-color: red; }
     color : white !important;
     font-size : 1.2em !important;
 }
+
 .green {
     color : #ffddcc !important;
     float : right;
+}
+
+.flexblock.gallery h2 {
+    color : white !important;
+	margin-top : 10px;
+}
+
+.flexblock.gallery h2 a {
+    color : white !important;
+    margin-top : 10px;
 }

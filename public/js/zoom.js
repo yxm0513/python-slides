@@ -45,7 +45,6 @@ var zoom = (function(){
 			zoom.out();
 		}
 	} );
-
 	// Monitor mouse movement for panning
 	document.addEventListener( 'mousemove', function( event ) {
 		if( level !== 1 ) {

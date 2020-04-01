@@ -210,20 +210,20 @@ MQTT版\:  {.bounceInLeft}
 <br>
 :::flexblock {.metrics}
 
-:::div {.animated.zoomIn.delay-400}
+:::div {.tobuild.animated.zoomIn.delay-400}
 
 :fa-clock-o:
 
 有限时间
 
 ----
-:::div {.animated.zoomIn.delay-800}
+:::div {.tobuild.animated.zoomIn.delay-800}
 :fa-users:
 
 有限人力
 
 ----
-:::div {.animated.zoomIn.delay-1200}
+:::div {.tobuild.animated.zoomIn.delay-1200}
 :fa-tasks:
 
 保证覆盖
@@ -254,8 +254,8 @@ MQTT版\:  {.bounceInLeft}
 ## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
 
 ---
-<img src="/img/delay.png" onclick="myfunction(this)">
-## 延时测试
+<img src="/img/delay.png" style="background: white" onclick="myfunction(this)">
+## 延时测试 
 
 :::
 

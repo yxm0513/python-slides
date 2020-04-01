@@ -20,3 +20,8 @@ document.addEventListener("load", function(event) {
     console.log('event loaded')
 	changeBackgroundColor('bg-apple')
 });
+
+document.addEventListener( 'keydown', function( event ) {
+if(event.keyCode === 40 ) {
+   zoom.out();}
+} );
