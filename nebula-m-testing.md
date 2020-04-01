@@ -47,7 +47,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::div 
 #### Releases
 <br>
-*From 2019.05.30 To 2020.03.26 More Than 16 Releases* {.bounceInLeft.tobuild}
+*From 2019.05.30 To 2020.03.26 ,More Than 16 Releases* {.bounceInLeft.tobuild}
  * 硬件 {.bounceInLeft.tobuild}
    * 一代TX2平台, 二代3559A平台 {.bounceInLeft.tobuild}
    * 研扬，宝德，天地 {.bounceInLeft.tobuild}
@@ -77,12 +77,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 				<span class="flag">标准版 V1.1.0</span>
 				<span class="time-wrapper"><span class="time">2019.07.22</span></span>
 			</div>
-			<div class="desc">
-定制版-对接SF&SU
-定制版-mqtt对接深广用户
-标准版，临时给出支持案场项目
-定制版-mqtt对接深广用户
-定制版-mqtt对接深广用户
+			<div class="desc">1. 定制版-对接SF&SU
+2. 定制版-mqtt对接深广用户
+3. 标准版，临时给出支持案场项目
+4. 定制版-mqtt对接深广用户
+5. 定制版-mqtt对接深广用户
 </div>
 		</div>
 	</li>
@@ -92,7 +91,8 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 				<span class="flag">标准版 V1.1.2</span>
 				<span class="time-wrapper"><span class="time">2019.09.02</span></span>
 			</div>
-			<div class="desc">1.【新功能】抓拍策略与通道绑定
+			<div class="desc">
+1.【新功能】抓拍策略与通道绑定
 2.【新功能】批量入库支持属性提取
 3.【新功能】支持最小人脸像素设置
 4.【新功能】视频流接入支持GB28181协议
@@ -147,15 +147,14 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
                 <span class="flag">标准版 V2.0.1</span>
                 <span class="time-wrapper"><span class="time">2020.01.21</span></span>
             </div>
-            <div class="desc">
-新硬件适配，接入协议
-抓拍机接入
-支持GB28181
-鉴权
-视频图片流混合接入
-人体特征
-人脸信息
-网络继电器状态
+            <div class="desc">1. 新硬件适配，接入协议
+2. 抓拍机接入
+3. 支持GB28181
+4. 鉴权
+5. 视频图片流混合接入
+6. 人体特征
+7. 人脸信息
+8. 网络继电器状态
 </div>
         </div>
     </li>
@@ -165,19 +164,12 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
                 <span class="flag">测温版 V1.0</span>
                 <span class="time-wrapper"><span class="time">2020.02.13</span></span>
             </div>
-            <div class="desc">
-支持智能测温检测告警
-支持未佩戴口罩检测告警
-支持热成像相机视频流接入预览， 
-支持SDK接入测温告警事件
-V1.0版本最大支持2路热成像相机接入处理
-支持热成像相机可见光视频预览
-支持热成像相机热成像视频预览
-支持测温疑似发热弹窗预警，并列表展示
-支持测温预警复核确认功能，复核确认疑似发热人员正常/发热状态并录入系统显示
-支持未佩戴口罩告警弹窗提示，并列表展示
-V1.0版本仅支持100条发热预警缓存，满覆盖方式，首页预警列表展示，不在历史记录查询
-V1.0版本暂不支持测温历史记录检索功能
+            <div class="desc">1. 支持智能测温检测告警
+2. 支持未佩戴口罩检测告警 3. 支持热成像相机视频流接入预览 4.支持SDK接入测温告警事件 5. V1.0版本最大支持2路热成像相机接入处理
+6. 支持热成像相机可见光视频预览 7. 支持热成像相机热成像视频预览8. 支持测温疑似发热弹窗预警，并列表展示
+9. 支持测温预警复核确认功能，复核确认疑似发热人员正常/发热状态并录入系统显示
+10. 支持未佩戴口罩告警弹窗提示，并列表展示
+11. V1.0版本仅支持100条发热预警缓存，满覆盖方式，首页预警列表展示，不在历史记录查询
 </div>
         </div>
     </li>
@@ -187,17 +179,10 @@ V1.0版本暂不支持测温历史记录检索功能
                 <span class="flag">测温版 V1.1</span>
                 <span class="time-wrapper"><span class="time">2020.02.19</span></span>
             </div>
-            <div class="desc">
-新增支持戴口罩人脸识别
-优化最大支持4路热成像相机接入处理
-新增支持戴口罩人脸比对告警弹窗提示，并首页列表展示
-支持测温疑似发热记录存储和分类（复核确认、正常、发热三类状态）
-支持未佩戴口罩告警记录存储
-支持戴口罩人脸识别告警记录存储
-支持测温历史记录按时间、通道、状态查询检索
-支持未佩戴口罩、识别告警记录按时间、通道查询检索
-各类告警类型统计报表功能
-新增所有功能API接口开放
+            <div class="desc">1. 新增支持戴口罩人脸识别 2. 优化最大支持4路热成像相机接入处理 3. 新增支持戴口罩人脸比对告警弹窗提示，并首页列表展示
+4. 支持测温疑似发热记录存储和分类（复核确认、正常、发热三类状态）5. 支持未佩戴口罩告警记录存储 6. 支持戴口罩人脸识别告警记录存储
+7. 支持测温历史记录按时间、通道、状态查询检索 8. 支持未佩戴口罩、识别告警记录按时间、通道查询检索 9. 各类告警类型统计报表功能
+10. 新增所有功能API接口开放
 </div>
         </div>
     </li>
