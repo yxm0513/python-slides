@@ -30,6 +30,20 @@ body { background-color: red; }
   margin-left: 3.2rem !important;
 }
 
+.card-70 ul li:before {
+  font-family: FontAwesome;
+  content: "\f138";
+  left : 1em;
+  color: gary;
+  margin-right : 8px;
+}
+
+.card-70 ul li {
+  list-style-type : none;
+  font-size: 1.7rem;
+}
+
+
 .myfa {
     font-size: 2em;
 }

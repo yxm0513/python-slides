@@ -73,7 +73,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
  * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。{.animated.zoomIn.delay-400} 
 ---
-![](/img/nebula-m.png) {.fadeInUp}
+![](/img/nebula-m.png)
 
 :::
 
@@ -293,11 +293,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 {.description.tobuild}
 :::
-<slide class="fullscreen slideInRight">
+<slide class="fullscreen zoomIn">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 <img src="/img/py_start.png" class="aligncenter fadeInUp delay-400 size-60" onclick="myfunction(this)">
 
-<slide class="fullscreen slideInLeft">
+<slide class="fullscreen zoomIn">
 ### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
 <img src="/img/perl_start.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
 
@@ -314,14 +314,14 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <img src="/img/136.png" class="aligncenter fadeInUp delay-400 bg-white size-60" onclick="myfunction(this)">
 :::
 
-<slide class="fullscreen aligncenter slideInRight">
-:::column {.content-center.zoomIn}
-#### 我们是如何自动化开发的
+<slide class="fullscreen slideInRight">
+:::column {.zoomIn}
 <br>
+#### 我们是如何自动化开发的
 <br>
  * 高效协作
  * 共识：风格一致
- * 分离：框架,用例解耦
+ * 解耦：框架,用例
 {.build.zoomIn}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
@@ -350,7 +350,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="slideInLeft" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
-:::div 
+:::div
 ### 未来合作计划 
 <br>
 {.text-intro}
