@@ -184,7 +184,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <slide class="content-center fullscreen slideInLeft">
 ## 视频制作
 <br/>
-:::div {.fadeInUp.tobuild}
+:::div {.fadeInUp}
 <br> 
 <video width="700" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/tmp720p.mp4" type="video/mp4">
@@ -194,7 +194,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <slide class="content-center fullscreen slideInRight">
 ## videowall
 <br/>
-:::div {.fadeInUp.tobuild}
+:::div {.fadeInUp}
 <br/>
 <video width="700" controls autoplay loop onclick="myfunction(this)">
     <source src="/img/videowall.mov" type="video/mp4">
@@ -350,11 +350,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="slideInLeft" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
-:::div
+:::column
 ### 未来合作计划 
 <br>
-{.text-intro}
-
  * Viper-Lite SEP
  * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架
  * 现有测试框架SEP 集成
