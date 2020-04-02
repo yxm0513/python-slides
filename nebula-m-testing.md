@@ -190,8 +190,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 </div>
 
 <slide class="grid vertical-align fullscreen slideInRight">
-:::column
-!![](/img/thermo.png .fadeInUp.delay-400)
+:::column 
+<video controls autoplay loop muted onclick="myfunction(this)">
+    <source src="/img/cctv.mp4" type="video/mp4">
+</video>
 
 ---
 :::div {.alignright}
