@@ -1,4 +1,4 @@
-title: 浅谈Nebula-M 测试实践
+title: 浅谈SenseNebula-M 测试实践
 speaker: yangxinming
 transition: cards
 prismTheme: dark
@@ -15,7 +15,7 @@ plugins:
 
 <slide class="bg-black-blue aligncenter zoomIn" image="https://source.unsplash.com/C1HhAQrbykQ/">
 
-# 浅谈Nebula-M 测试实践 {.text-landing.text-shadow}
+# 浅谈SenseNebula-M 测试实践 {.text-shadow}
 
 By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG-NP-IDEA\] {.text-intro} 
 
@@ -33,7 +33,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ## Agenda {.zoomIn}
 ---
 :::div {.mydiv}
- * 关于Nebula-M {.bounceInRight}
+ * 关于SenseNebula-M {.bounceInRight}
  * 关于我们的测试实践{.bounceInRight}
  * Q&A {.bounceInRight}
 {.build}
@@ -260,7 +260,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * 2+ x 继电器 {.fadeInUp}
  * 1 x 台式机 + 1 x 显示器{.fadeInUp}
  * 1 x 服务器{.fadeInUp}
- * Nebula-M 若干{.fadeInUp}
+ * SenseNebula-M 若干{.fadeInUp}
  * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
@@ -497,7 +497,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column
 ### 未来合作计划 
 <br>
- * Viper-Lite SEP {.fadeInUp}
+ * Viper-Lite 平台测试 SEP {.fadeInUp}
  * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架 {.fadeInUp}
  * 现有测试框架SEP 集成 {.fadeInUp}
 {.build.description}
