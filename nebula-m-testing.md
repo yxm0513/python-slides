@@ -375,6 +375,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br>
 <br>
 :::gallery-overlay {.build}
+<img src="/img/report.png" onclick="myfunction(this)">
+## 测试报告
+---
 <img src="/img/acc.png" onclick="myfunction(this)">
 ## 准确率测试
 
