@@ -375,6 +375,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br>
 <br>
 :::gallery-overlay {.build}
+<br>
 <img src="/img/report.png" onclick="myfunction(this)">
 ## 测试报告
 ---
@@ -385,11 +386,12 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br>
 <br>
 <br>
-<br>
 <img src="/img/codecoverage.png" onclick="myfunction(this)">
 ## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
 
 ---
+<br>
+<br>
 <img src="/img/delay.png" style="background: white" onclick="myfunction(this)">
 ## 延时测试 
 
