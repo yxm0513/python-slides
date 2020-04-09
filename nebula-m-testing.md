@@ -496,15 +496,18 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ### 我们之前的计划 {.content-center}
 <br>
 :::column {.sm .aligncenter .fadeInUp .build}
+<div class="aligncenter">
 > [:fa-file-pdf-o: Deprecated Plan](/test.pdf) 
 <br>
-<br>
 <img src="/img/plan_arch.png" width=600 onclick="myfunction(this)">
+</div>
 
 ---
-<video width="850" controls autoplay loop muted onclick="myfunction(this)">
+<div class="aligncenter">
+<video width=900 controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/nebula-m_testserver.mov" type="video/mp4">
 </video>
+</div>
 :::
 
 <slide class="slideInLeft" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
