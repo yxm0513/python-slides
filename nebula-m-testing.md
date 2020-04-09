@@ -257,10 +257,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column
 ### 嵌入式设备测试的难点 {.zoomIn}
 <br>
- * 特别注重稳定性,易用性 {.fadeInUp}
- * 场景多,需兼容各类设备,相机,交换机,电脑终端.etc {.fadeInUp}
+ * 需特别注重稳定性,易用性 {.fadeInUp}
+ * 场景众多,另需兼容各类设备 {.fadeInUp}
+ * 硬件本身资源有限,功能修改可能引入性能问题 {.fadeInUp}
  * 版本较多,回归压力大 {.fadeInUp}
- * 硬件本身资源有限,性能调优挑战大 {.fadeInUp}
 {.description.text-intro.build}
 ---
 <img src="/img/testing.png" class="fadeInUp" width=600px height=420px>
