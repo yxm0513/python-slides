@@ -7,6 +7,7 @@ css:
 js:
     - js/zoom.js
     - js/base.js
+    - https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css 
 plugins:
     - echarts
     - mermaid
@@ -14,7 +15,6 @@ plugins:
 
 
 <slide class="bg-black-blue aligncenter zoomIn" image="https://source.unsplash.com/C1HhAQrbykQ/">
-
 # 浅谈SenseNebula-M 测试实践 {.text-shadow}
 
 By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG-NP-IDEA\] {.text-intro} 
@@ -191,7 +191,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="grid vertical-align fullscreen slideInRight">
 :::column 
-<video controls autoplay loop muted onclick="myfunction(this)">
+<video height="500" controls autoplay loop muted onclick="myfunction(this)">
     <source src="/img/cctv.mp4" type="video/mp4">
 </video>
 
@@ -255,6 +255,19 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 <slide class="grid vertical-align fullscreen">
 :::column
+### 嵌入式设备测试的难点 {.zoomIn}
+<br>
+ * 特别注重稳定性,易用性 {.fadeInUp}
+ * 场景多,需兼容各类设备,相机,交换机,电脑终端.etc {.fadeInUp}
+ * 版本较多,回归压力大 {.fadeInUp}
+ * 硬件本身资源有限,性能调优挑战大 {.fadeInUp}
+{.description.text-intro.build}
+---
+<img src="/img/testing.png" class="fadeInUp" width=600px height=420px>
+:::
+
+<slide class="grid vertical-align fullscreen">
+:::column
 #### 我们是如何测试的{.zoomIn} 
  * 15+ x 摄像头 {.fadeInUp} 
  * 2+ x 继电器 {.fadeInUp}
@@ -264,7 +277,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
-<img src="/img/camera.png" class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
+<img src="/img/dev1.jpeg" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
 :::
 
 <slide class="fullscreen zoomIn">
@@ -400,9 +413,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="fullscreen slideInRight">
-### 我们的做法 {.aligncenter.text-landing.fadeInUp}
+### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
 :::column
-#### 自动化{.content-left.tobuild}
+#### 主要依靠自动化{.content-left.tobuild}
  * :覆盖\::{.text-label}
 {.description.build}
    * 通过API覆盖超过<span style="font-size:3rem; color:lawngreen" class="fadeInUp"> **80%** </span> 以上的测试 
@@ -422,9 +435,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
    * 可扩展性
 
 <slide class="fullscreen slideInLeft">
-### 我们的做法 {.aligncenter.text-landing.fadeInUp}
+### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
 :::column
-#### 手动{.content-left.tobuild}
+#### 结合部分手动{.content-left.tobuild}
   * 延时
   * 网络 [:fa-file-pdf-o:](/net.pdf)
   * Web(做了部分的自动化)
@@ -432,7 +445,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.description.tobuild}
 
 ---
-#### 其他{.content-left.tobuild}
+#### 另外{.content-left.tobuild}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 {.description.tobuild}
@@ -463,9 +476,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <br>
 #### 我们是如何自动化开发的
 <br>
- * 高效协作{.fadeInUp.tobuild}
+* 高效协作{.fadeInUp.tobuild}
    * 共识：风格一致 {.fadeInUp}
    * 解耦：框架,用例{.fadeInUp}
+   * 反馈：多提交，多执行{.fadeInUp}
 {.build}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
@@ -498,12 +512,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ### 未来合作计划 
 <br>
  * Viper-Lite 平台测试 SEP {.fadeInUp}
- * SenseNebula-M Lite 迁移 ： 功能上一致，考虑使用现有框架 {.fadeInUp}
+ * SenseNebula-M Lite迁移 ：功能上一致，考虑使用现有框架{.fadeInUp}
  * 现有测试框架SEP 集成 {.fadeInUp}
 {.build.description}
 :::
 
 <slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks! {.aligncenter.text-landing.zoomIn} 
-[![](/img/gitlab-icon-rgb.png){.avatar-80}](http://gitlab.sz.sensetime.com/yangxinming/testing-slides)
 
