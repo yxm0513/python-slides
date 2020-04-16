@@ -2,6 +2,10 @@
     width: 20%;
 }
 
+.mycolumn {
+  padding: 80px !important;
+}
+
 .column ul li:before {
   font-family: FontAwesome;
   content: "\f138";

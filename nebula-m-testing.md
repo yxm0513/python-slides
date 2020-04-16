@@ -60,7 +60,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <slide class="fullscreen">
 ### 产品主要功能 {.aligncenter.text-landing.zoomIn} 
 ---
-:::column {.build}
+:::column {.build.mycolmn}
 #### 视频接入 
  * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
  * 支持视频编码格式 H.264
@@ -254,7 +254,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen">
-:::column
+:::column {.mycolumn}
 ### 嵌入式设备测试的难点 {.zoomIn}
 <br>
  * 需特别注重稳定性,易用性 {.fadeInUp}
@@ -267,7 +267,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen">
-:::column
+:::column {.mycolumn}
 #### 我们是如何测试的{.zoomIn} 
  * 15+ x 摄像头 {.fadeInUp} 
  * 2+ x 继电器 {.fadeInUp}
@@ -304,7 +304,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen slideInLeft">
-:::column 
+:::column {.mycolumn}
 ## 智能插座
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 手动盒子测试断电，每次最多测几十次 {.fadeInUp}
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 通过自动化之后，可以反复断电1晚 {.fadeInUp}
@@ -321,7 +321,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 :::
 <slide class="grid vertical-align fullscreen slideInRight">
-:::column
+:::column {.mycolumn}
 ## 网络继电器开灯 
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 只能通过听继电器的滴答声来确定触发 {.fadeInUp}
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 现在观察灯的闪烁就可以了解触发情况 {.fadeInUp}
@@ -414,7 +414,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="fullscreen slideInRight">
 ### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
-:::column
+:::column {.mycolumn}
 #### 主要依靠自动化{.content-left.tobuild}
  * 覆盖\:
 {.build}
@@ -436,7 +436,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="fullscreen slideInLeft">
 ### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
-:::column
+:::column {.mycolumn}
 #### 结合部分手动{.content-left.tobuild}
   * 延时
   * 网络 [:fa-file-pdf-o:](/net.pdf)
@@ -472,15 +472,15 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="fullscreen slideInRight">
-:::column {.zoomIn}
+:::column {.mycolumn.zoomIn}
 <br>
 #### 我们是如何自动化开发的
 <br>
-* 高效协作{.fadeInUp.tobuild}
+* 高效协作{.fadeInUp.text-intro.tobuild}
    * 共识：风格一致 {.fadeInUp}
    * 解耦：框架,用例{.fadeInUp}
    * 反馈：多提交，多执行{.fadeInUp}
-{.build}
+{.build.text-intro}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
 :::
@@ -517,8 +517,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * Viper-Lite 平台测试 SEP {.fadeInUp}
  * SenseNebula-M Lite迁移 ：功能上一致，考虑使用现有框架{.fadeInUp}
  * 现有测试框架SEP 集成 {.fadeInUp}
-{.build.description}
+{.build.text-intro}
+---
 :::
+
 
 <slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks! {.aligncenter.text-landing.zoomIn} 
