@@ -34,7 +34,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ---
 :::div {.mydiv}
  * 关于SenseNebula-M {.bounceInRight}
- * 我们的测试实践{.bounceInRight}
+ * 我们是如何完成测试的？{.bounceInRight}
  * 之前的设想，以及未来的计划{.bounceInRight}
  * Q&A {.bounceInRight}
 {.build}
