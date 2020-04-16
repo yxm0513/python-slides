@@ -19,36 +19,84 @@ plugins:
 
 By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4){.avatar-40} YangXinMing \[SCG-NP-IDEA\] {.text-intro} 
 
-
 ---
-
 :::div
 <img src="/img/nodeppt_md.png" width="200" class="bounceInLeft slow" onclick="myfunction(this)"> 
 :::
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
-
-
-
-<slide class="grid vertical-align content-center fullscreen">
-## Agenda {.zoomIn}
----
-:::div {.mydiv}
- * 关于SenseNebula-M {.bounceInRight}
- * 我们是如何完成测试的？{.bounceInRight}
- * 之前的设想，以及未来的计划{.bounceInRight}
- * Q&A {.bounceInRight}
-{.build}
-:::
 
 <slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
 ---
-:::div 
+
+## Agenda {.zoomIn}
+<br>
+:::div {.mydiv}
+ * 关于SenseNebula-M {.bounceInRight}
+ * 我们是如何完成测试的？{.bounceInRight}
+ * 之前的设想，以及未来的计划{.bounceInRight}
+ * Q&A {.bounceInRight}
+{.build.description.text-intro}
+:::
+
+<slide class="grid vertical-align fullscreen slideInLeft">
+:::card {.card-70 .bg-blue .fadeInUp}
+
+### SenseNebula-M 是什么？
+ * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
+ * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。{.animated.zoomIn.delay-400} 
+---
+
+![](/img/nebula-m.png)
+
+:::
+
+<slide class="fullscreen slideInRight">
+### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
+<img src="/img/deploy.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
+
+<slide class="fullscreen">
+### 产品主要功能 {.aligncenter.text-landing.zoomIn} 
+---
+:::column {.build}
+#### 视频接入 
+ * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
+ * 支持视频编码格式 H.264
+ * 支持最大视频分辨率 1080P
+ * 支持人脸检测感兴趣区域设置
+ * 支持最小、最大人脸像素设置
+
+#### 图片接入
+ * 支持 SenseDLC AA 系列、11 系列、D 系列、T 系列抓拍机接入
+ * 支持其他主流厂家抓拍机等抓拍设备 SDK 二次开发接入
+
+#### 人像库
+ * 支持黑/白名单库新增、编辑、删除，人像库图片导入、导出、编辑、删除
+
+---
+#### 人脸功能
+ * 人脸检测、跟踪、抓拍，抓拍及告警记录查看、条件检索、导出
+ * 支持人脸 1:1、1:N 比对，返回相似度等信息
+ * 人脸小图、场景大图、人脸质量分数、人脸属性推送
+ * 人脸属性包括年龄、性别、胡子、口罩、眼镜、帽子等
+
+#### 人体功能
+ * 人体检测、跟踪、抓拍，抓拍记录查看、条件检索、记录导出
+ * 人体属性包括朝向、年龄、性别、帽子、头发、上衣、下衣、鞋子、口罩、雨伞、箱包等
+
+#### 信号联动
+ * 网络继电器信号联动控制
+
+:::
+
+<slide class="grid aligncenter fullscreen">
 #### Releases
 <br>
+
 *From 2019.05.30 To 2020.03.26 ,More Than 16 Releases* {.bounceInLeft.tobuild}
+:::div {.mydiv}
  * 硬件 {.bounceInLeft.tobuild}
    * 一代TX2平台, 二代3559A平台 {.bounceInLeft.tobuild}
    * 研扬，宝德，天地 {.bounceInLeft.tobuild}
@@ -56,11 +104,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
    * 标准版\: v1.0.0 v1.2.0 v1.3.0 v2.0.0 v2.0.x {.bounceInLeft.tobuild}
    * MQTT版\: v1.0.0 v1.2.0 v2.0.0 {.bounceInLeft.tobuild}
    * 国际版，社区版，测温版，蓝光版 \.etc {.bounceInLeft.tobuild}
-{.description}
 :::
 
-<slide class="grid vertical-align fullscreen slideInLeft">
-<div class="aligncenter content-center">
+<slide class="grid aligncenter fullscreen">
+<div class="">
 <h4> Timeline </h4>
 <ul class="timeline build">
 	<li>
@@ -189,7 +236,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
     </li>
 </ul>
 </div>
-
+:::
 <slide class="grid vertical-align fullscreen slideInRight">
 :::column 
 <video height="500" controls autoplay loop muted onclick="myfunction(this)">
@@ -206,54 +253,6 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.description}
 :::
 
-<slide class="grid vertical-align fullscreen slideInLeft">
-:::card {.card-70 .bg-blue .fadeInUp}
-
-### SenseNebula-M 是什么？
- * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 {.animated.zoomIn}
- * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。{.animated.zoomIn.delay-400} 
----
-![](/img/nebula-m.png)
-
-:::
-
-<slide class="fullscreen slideInRight">
-### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
-<img src="/img/deploy.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
-
-<slide class="fullscreen">
-### 产品功能 {.aligncenter.text-landing.zoomIn} 
----
-:::column {.build}
-#### 视频接入 
- * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
- * 支持视频编码格式 H.264
- * 支持最大视频分辨率 1080P
- * 支持人脸检测感兴趣区域设置
- * 支持最小、最大人脸像素设置
-
-#### 图片接入
- * 支持 SenseDLC AA 系列、11 系列、D 系列、T 系列抓拍机接入
- * 支持其他主流厂家抓拍机等抓拍设备 SDK 二次开发接入
-
-#### 人像库
- * 支持黑/白名单库新增、编辑、删除，人像库图片导入、导出、编辑、删除
-
----
-#### 人脸功能
- * 人脸检测、跟踪、抓拍，抓拍及告警记录查看、条件检索、导出
- * 支持人脸 1:1、1:N 比对，返回相似度等信息
- * 人脸小图、场景大图、人脸质量分数、人脸属性推送
- * 人脸属性包括年龄、性别、胡子、口罩、眼镜、帽子等
-
-#### 人体功能
- * 人体检测、跟踪、抓拍，抓拍记录查看、条件检索、记录导出
- * 人体属性包括朝向、年龄、性别、帽子、头发、上衣、下衣、鞋子、口罩、雨伞、箱包等
-
-#### 信号联动
- * 网络继电器信号联动控制
-
-:::
 <slide class="grid vertical-align fullscreen">
 :::column
 ### 嵌入式设备测试的难点 {.zoomIn}
@@ -417,19 +416,19 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
 :::column
 #### 主要依靠自动化{.content-left.tobuild}
- * :覆盖\::{.text-label}
-{.description.build}
+ * 覆盖\:
+{.build}
    * 通过API覆盖超过<span style="font-size:3rem; color:lawngreen" class="fadeInUp"> **80%** </span> 以上的测试 
    * 功能，兼容性，准确率，稳定性，覆盖率 .etc
- * :优点\::{.text-label.build}
+ * 优点\:
    * 有效的测试的覆盖, 回归
    * 测试的稳定性
    * 完成一些手动不可能完成的事情
- * :缺点\::{.text-label.build}
+ * 缺点\:
    * 需要开发的时间
 ----
- * :需要做到\::{.text-label}
-{.description.tobuild}
+ * 自动化开发需要做到\:
+{.build}
    * 稳定性
    * 可维护性
    * 易用性
