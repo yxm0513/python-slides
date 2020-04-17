@@ -531,3 +531,6 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
 # Thanks! {.aligncenter.text-landing} 
 ### <span style="font-size:3rem; color:lawngreen">Any questions? </span> {.aligncenter.fadeInUp.delay-400}
+
+<img src="/img/wechat_qrcode.png" width=130>
+
