@@ -257,9 +257,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column {.mycolumn}
 ### 嵌入式设备测试的难点 {.zoomIn}
 <br>
- * 需特别注重稳定性,易用性 {.fadeInUp}
- * 场景众多,另需兼容各类设备 {.fadeInUp}
- * 硬件本身资源有限,功能修改可能引入性能问题 {.fadeInUp}
+ * 需特别注重产品稳定性,健壮性,易用性 {.fadeInUp}
+ * 需适配场景众多,另需兼容各类设备 {.fadeInUp}
+ * 硬件本身资源有限,功能修改容易引入性能问题 {.fadeInUp}
  * 版本较多,回归压力大 {.fadeInUp}
 {.description.text-intro.build}
 ---
@@ -385,33 +385,6 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 <img src="/img/cover.png" class="aligncenter fadeInUp delay-800" onclick="myfunction(this)">
 </script>
 
-<slide :class="fullscreen slideInLeft">
-## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
-<br>
-<br>
-:::gallery-overlay {.build}
-<br>
-<img src="/img/report.png" onclick="myfunction(this)">
-## 测试报告
----
-<img src="/img/acc.png" onclick="myfunction(this)">
-## 准确率测试
-
----
-<br>
-<br>
-<br>
-<img src="/img/codecoverage.png" onclick="myfunction(this)">
-## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
-
----
-<br>
-<br>
-<img src="/img/delay.png" style="background: white" onclick="myfunction(this)">
-## 延时测试 
-
-:::
-
 <slide class="fullscreen slideInRight">
 ### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
 :::column {.mycolumn}
@@ -475,11 +448,15 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column {.mycolumn.zoomIn}
 <br>
 #### 我们是如何自动化开发的
-<br>
 * 高效协作{.fadeInUp.text-intro.tobuild}
    * 共识：风格一致 {.fadeInUp}
    * 解耦：框架,用例{.fadeInUp}
    * 反馈：多提交，多执行{.fadeInUp}
+{.build.text-intro}
+* 最终实现{.fadeInUp.text-intro.tobuild}
+   * file based tests
+   * lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
+   * support all kinds of tests, api, web, tools, performance, accuracy .etc
 {.build.text-intro}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
@@ -491,6 +468,34 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 [![](/img/gitlab-icon-rgb.png){.avatar-40}](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
 :::
 <img src="/img/testcase.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
+
+<slide :class="fullscreen slideInLeft">
+## 我们测试的输出 {.aligncenter.text-landing.zoomIn}
+<br>
+<br>
+:::gallery-overlay {.build}
+<br>
+<img src="/img/report.png" onclick="myfunction(this)">
+## 测试报告
+---
+<img src="/img/acc.png" onclick="myfunction(this)">
+## 准确率测试
+
+---
+<br>
+<br>
+<br>
+<img src="/img/codecoverage.png" onclick="myfunction(this)">
+## 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
+
+---
+<br>
+<br>
+<img src="/img/delay.png" style="background: white" onclick="myfunction(this)">
+## 延时测试
+
+:::
+
 
 <slide class="fullscreen zoomIn">
 ### 我们之前的计划 {.content-center}
@@ -514,10 +519,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column
 ### 未来合作计划 
 <br>
- * Viper-Lite 平台测试 SEP {.fadeInUp}
- * SenseNebula-M Lite迁移 ：功能上一致，考虑使用现有框架{.fadeInUp}
- * 现有测试框架SEP 集成 {.fadeInUp}
-{.build.text-intro}
+ * Viper-Lite 平台测试 SEP {.tobuild.text-intro.fadeInUp}
+ * SenseNebula-M Lite迁移 ：{.tobuild.text-intro.fadeInUp}
+   * 旧API功能上不变，考虑使用现有框架{.tobuild.text-intro.fadeInUp}
+   * 新API,新功能使用SEP{.tobuild.text-intro.fadeInUp}
+ * 现有测试框架SEP 集成 {.tobuild.text-intro.fadeInUp}
 ---
 :::
 
