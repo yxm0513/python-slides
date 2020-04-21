@@ -212,12 +212,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
                 <span class="flag">测温版 V1.0</span>
                 <span class="time-wrapper"><span class="time">2020.02.13</span></span>
             </div>
-            <div class="desc">1. 支持智能测温检测告警
-2. 支持未佩戴口罩检测告警 3. 支持热成像相机视频流接入预览 4.支持SDK接入测温告警事件 5. V1.0版本最大支持2路热成像相机接入处理
-6. 支持热成像相机可见光视频预览 7. 支持热成像相机热成像视频预览8. 支持测温疑似发热弹窗预警，并列表展示
-9. 支持测温预警复核确认功能，复核确认疑似发热人员正常/发热状态并录入系统显示
-10. 支持未佩戴口罩告警弹窗提示，并列表展示
-11. V1.0版本仅支持100条发热预警缓存，满覆盖方式，首页预警列表展示，不在历史记录查询
+            <div class="desc">1. 智能测温检测告警,预警，复核, 未佩戴口罩检测告警, 2. 热成像相机视频流接入预览, 3. 支持SDK接入, 4. 支持未佩戴口罩告警弹窗
 </div>
         </div>
     </li>
@@ -227,10 +222,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
                 <span class="flag">测温版 V1.1</span>
                 <span class="time-wrapper"><span class="time">2020.02.19</span></span>
             </div>
-            <div class="desc">1. 新增支持戴口罩人脸识别 2. 优化最大支持4路热成像相机接入处理 3. 新增支持戴口罩人脸比对告警弹窗提示，并首页列表展示
-4. 支持测温疑似发热记录存储和分类（复核确认、正常、发热三类状态）5. 支持未佩戴口罩告警记录存储 6. 支持戴口罩人脸识别告警记录存储
-7. 支持测温历史记录按时间、通道、状态查询检索 8. 支持未佩戴口罩、识别告警记录按时间、通道查询检索 9. 各类告警类型统计报表功能
-10. 新增所有功能API接口开放
+            <div class="desc">1. 新增支持戴口罩人脸识别 2. 优化最大支持4路热成像相机接入处理, 记录存储, 查询,分类,检索,统计 3. API接口开放
 </div>
         </div>
     </li>
@@ -245,7 +237,8 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 ---
 :::div {.alignright}
-#### 测温版{.bounceInLeft}
+#### 测温版{.bounceInLeft.align-center}
+<img src="/img/awards.png" class="fadeInUp tobuild" width=300px onclick="myfunction(this)">
  * 测温相机接入 {.tobuild.bounceInLeft}
  * 测温告警 {.tobuild.bounceInLeft}
  * 佩戴口罩对比 {.tobuild.bounceInLeft}
