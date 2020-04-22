@@ -441,15 +441,15 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::column {.mycolumn.zoomIn}
 <br>
 #### 我们是如何自动化开发的
-* 高效协作{.fadeInUp.text-intro.tobuild}
-   * 共识：风格一致 {.fadeInUp}
-   * 解耦：框架,用例{.fadeInUp}
-   * 反馈：多提交，多执行{.fadeInUp}
+* 效率为先{.fadeInUp.text-intro.tobuild}
+   * 共识：风格一致(Convention Over Configuration){.fadeInUp}
+   * 解耦：框架,用例(DRY, test script reflects test design){.fadeInUp}
+   * 反馈：多提交，多执行(Agile, feedback timely){.fadeInUp}
 {.build.text-intro}
 * 最终实现{.fadeInUp.text-intro.tobuild}
-   * file based tests
-   * lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
-   * support all kinds of tests, api, web, tools, performance, accuracy .etc
+   * File based tests
+   * Lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
+   * Support all kinds of tests, api, web, tools, performance, accuracy .etc
 {.build.text-intro}
 ---
 <img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
