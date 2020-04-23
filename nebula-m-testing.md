@@ -251,6 +251,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen">
+## DEMO {.text-landing.aligncenter}
+
+
+<slide class="grid vertical-align fullscreen">
 <span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;z-index:100">
     <i class="fa fa-bookmark fa-stack-2x"></i>
     <strong class="fa-stack-1x" style="color: white;">2</strong>
@@ -490,9 +494,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
    * 反馈：多提交，多执行(Agile, feedback timely){.fadeInUp}
 {.build.text-intro}
 * 最终实现{.fadeInUp.text-intro.tobuild}
-   * File based tests
-   * Lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
-   * Support all kinds of tests, api, web, tools, performance, accuracy .etc
+   * built on requests, unittest, paramiko .etc
+   * file based tests
+   * lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
+   * support all kinds of tests, api, web, tools, performance, accuracy .etc
 {.build.text-intro}
 
 ---
