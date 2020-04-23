@@ -293,7 +293,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ---
 :::div {.tobuild.zoomIn}
 :fa-lightbulb-o:{.myfa}
-## 网络继电器开灯
+## 网络继电器开🚪 -> :fa-lightbulb-o:
 ---
 :::div {.tobuild.zoomIn}
 :fa-video-camera:{.myfa}
@@ -324,7 +324,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 <slide class="grid vertical-align fullscreen slideInRight">
 :::column {.mycolumn}
-## 网络继电器开灯 
+## 网络继电器开🚪  --> :fa-lightbulb-o: 
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span> \: 只能通过听继电器的滴答声来确定触发 {.fadeInUp}
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span> \: 现在观察灯的闪烁就可以了解触发情况 {.fadeInUp}
 {.description.build}
@@ -460,8 +460,21 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="fullscreen slideInLeft">
 ### 自动化运行的输出 {.aligncenter.text-landing.zoomIn}
-:::gallery {.build}
+:::column {.build}
 <img src="/img/log1.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
+
+----
+##### running logs {.fadeInUp.tobuild}
+  * summary \: stdout xxx.log {.fadeInUp}
+  * details \: run_xxx.log run_xxx_err.log {.fadeInUp}
+  * core \: core files \: core_files_backup, trace \: xxx_core.log {.fadeInUp}
+  * faied case \: xxx.err
+{.description.build}
+##### mock receiving {.fadeInUp.tobuild}
+  * http/https  \: posted info {.fadeInUp}
+  * ws \: web socket emit{.fadeInUp}
+  * tmp_image \: received images{.fadeInUp}
+{.description.build}
 
 ----
 <img src="/img/136.png" class="aligncenter fadeInUp delay-400 bg-white size-60" onclick="myfunction(this)">
@@ -481,8 +494,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
    * Lightweight, easy to manage, setup and maintain, adaptable, scalable, flexable
    * Support all kinds of tests, api, web, tools, performance, accuracy .etc
 {.build.text-intro}
+
 ---
-<img src="/img/script.png" width=300 style="margin-left: 100px" onclick="myfunction(this)">
+
+<img src="/img/script.png" width=350 style="margin-left: 100px" onclick="myfunction(this)">
+
 :::
 
 <slide class="fullscreen">
