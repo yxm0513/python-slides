@@ -502,7 +502,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="fullscreen">
-### 我们是如何自动化开发的 {.aligncenter.text-landing.zoomIn}
+### 如何写一个用例 {.aligncenter.text-landing.zoomIn}
 :::span {.aligncenter.text-subtitle.zoomIn}
 [![](/img/gitlab-icon-rgb.png){.avatar-40}](http://gitlab.sz.sensetime.com/yangxinming/nebula-m-1.2)
 :::
