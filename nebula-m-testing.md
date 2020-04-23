@@ -26,11 +26,6 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
-<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
-    <i class="fa fa-bookmark fa-stack-2x"></i>
-    <strong class="fa-stack-1x" style="color: white;">1</strong>
-</span>
-
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
@@ -47,6 +42,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen slideInLeft">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;z-index:100">
+    <i class="fa fa-bookmark fa-stack-2x"></i>
+    <strong class="fa-stack-1x" style="color: white;">1</strong>
+</span>
 :::card {.card-70 .bg-blue .fadeInUp}
 
 ### SenseNebula-M 是什么？
@@ -252,7 +251,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen">
-<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;z-index:100">
     <i class="fa fa-bookmark fa-stack-2x"></i>
     <strong class="fa-stack-1x" style="color: white;">2</strong>
 </span>
@@ -271,7 +270,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="grid vertical-align fullscreen">
 :::column {.mycolumn}
-#### 我们是如何测试的{.zoomIn} 
+#### 我们的测试设备{.zoomIn} 
  * 15+ x 摄像头 {.fadeInUp} 
  * 2+ x 继电器 {.fadeInUp}
  * 1 x 台式机 + 1 x 显示器{.fadeInUp}
@@ -522,7 +521,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 
 <slide class="fullscreen zoomIn">
-<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+<span class="fa-stack fa-2x" style="z-index:100;color: LIGHTSALMON; position:fixed; top:0; left:0;">
     <i class="fa fa-bookmark fa-stack-2x"></i>
     <strong class="fa-stack-1x" style="color: white;">3</strong>
 </span>
@@ -558,7 +557,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 
 <slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
-<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+<span class="fa-stack fa-2x" style="z-index:100;color: LIGHTSALMON; position:fixed; top:0; left:0;">
     <i class="fa fa-bookmark fa-stack-2x"></i>
     <strong class="fa-stack-1x" style="color: white;">4</strong>
 </span>
