@@ -25,7 +25,12 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 :::
 Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
-<slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/ .anim">
+<slide class="grid vertical-align fullscreen" image="https://source.unsplash.com/n9WPPWiPPJw/">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+    <i class="fa fa-bookmark fa-stack-2x"></i>
+    <strong class="fa-stack-1x" style="color: white;">1</strong>
+</span>
+
 :::column {.white}
 !![](/img/waiguan.png .fadeInUp.delay-400)
 
@@ -247,8 +252,13 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid vertical-align fullscreen">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+    <i class="fa fa-bookmark fa-stack-2x"></i>
+    <strong class="fa-stack-1x" style="color: white;">2</strong>
+</span>
+### 我们是如何完成测试的? {.aligncenter}
 :::column {.mycolumn}
-### 嵌入式设备测试的难点 {.zoomIn}
+#### 嵌入式设备测试的难点 {.zoomIn}
 <br>
  * 需特别注重产品稳定性,健壮性,易用性 {.fadeInUp}
  * 需适配场景众多,另需兼容各类设备 {.fadeInUp}
@@ -270,7 +280,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
-<img src="/img/dev1.jpeg" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
+<img src="/img/dev.jpeg" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
 :::
 
 <slide class="fullscreen zoomIn">
@@ -410,6 +420,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
   * 对接
 {.description.tobuild}
 
+<video width=300 controls autoplay loop muted class="tobuild" onclick="myfunction(this)">
+    <source src="/img/delay.mov" type="video/mp4">
+</video>
+
 ---
 #### 另外{.content-left.tobuild}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
@@ -417,19 +431,36 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 {.description.tobuild}
 :::
 <slide class="fullscreen zoomIn">
-### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+### 我们是如何执行自动化 {.aligncenter.text-landing.zoomIn}
+
 <img src="/img/py_start.png" class="aligncenter fadeInUp delay-400 size-60" onclick="myfunction(this)">
 
 <slide class="fullscreen zoomIn">
-### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+### 我们是如何执行自动化 {.aligncenter.text-landing.zoomIn}
 <img src="/img/perl_start.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
 
 <slide class="fullscreen zoomIn">
-### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
-<img src="/img/run_help.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
+### 我们是如何执行自动化 {.aligncenter.text-landing.zoomIn}
+:::column {.mycolumn}
+<img src="/img/run_help.png" class="fadeInUp delay-400" onclick="myfunction(this)">
+
+---
+
+#### Why those options?{.zoomIn.tobuild}
+ * ip \: 指向测试的盒子 {.fadeInUp}
+ * list \: 哪些case可以执行? {.fadeInUp}
+ * select,exclude \: 选择需要的用例{.fadeInUp}
+ * tag \: 选择相关的测试用例 {.fadeInUp}
+ * repeat,cycle \: 多次运行 {.fadeInUp}
+ * random \: 随机执行顺序{.fadeInUp}
+ * failed \: 执行上一次出错的用例{.fadeInUp}
+ * ignore \: 去除重复的err message 到err.log里{.fadeInUp}
+ * common options \: 一些框架执行的配置{.fadeInUp}
+{.description.text-intro.build}
+:::
 
 <slide class="fullscreen slideInLeft">
-### 我们是如何自动化的 {.aligncenter.text-landing.zoomIn}
+### 自动化运行的输出 {.aligncenter.text-landing.zoomIn}
 :::gallery {.build}
 <img src="/img/log1.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
 
@@ -491,6 +522,11 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 
 <slide class="fullscreen zoomIn">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+    <i class="fa fa-bookmark fa-stack-2x"></i>
+    <strong class="fa-stack-1x" style="color: white;">3</strong>
+</span>
+
 ### 我们之前的计划 {.content-center}
 <br>
 :::column {.sm .aligncenter .fadeInUp .build}
@@ -522,6 +558,10 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 
 <slide class="slideInRight fullscreen aligncenter" video="https://webslides.tv/static/videos/working.mp4 poster='https://webslides.tv/static/images/working.jpg' .dark">
+<span class="fa-stack fa-2x" style="color: LIGHTSALMON; position:fixed; top:0; left:0;">
+    <i class="fa fa-bookmark fa-stack-2x"></i>
+    <strong class="fa-stack-1x" style="color: white;">4</strong>
+</span>
 # Thanks! {.aligncenter.text-landing} 
 ### <span style="font-size:3rem; color:lawngreen">Any questions? </span> {.aligncenter.fadeInUp.delay-400}
 
