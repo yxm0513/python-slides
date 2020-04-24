@@ -283,7 +283,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
  * 路由器，交换机，智能插座若干{.fadeInUp}
 {.description.text-intro.build}
 ---
-<img src="/img/dev.jpeg" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
+<img src="/img/camera.png" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
 :::
 
 <slide class="fullscreen zoomIn">
