@@ -393,6 +393,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 
 <slide class="fullscreen slideInRight">
 ### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
+
+Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-intro.fadeInUp}
+
 :::column {.mycolumn}
 #### 主要依靠自动化{.content-left.tobuild}
  * 覆盖\:
