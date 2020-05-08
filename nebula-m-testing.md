@@ -569,18 +569,18 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
 
 <slide class="slideInLeft" image="https://source.unsplash.com/PGnqT0rXWLs/800x600 .right">
 :::column
-### 未来合作计划 
-<br>
- * Viper-Lite 平台测试 SEP {.tobuild.text-intro.fadeInUp}
- * SenseNebula-M Lite迁移 ：{.tobuild.text-intro.fadeInUp}
-   * 旧API功能上不变，考虑使用现有框架{.tobuild.text-intro.fadeInUp}
-   * 新API,新功能使用SEP{.tobuild.text-intro.fadeInUp}
- * 现有测试框架SEP 集成 {.tobuild.text-intro.fadeInUp}
- * Todo(aka Ideas) {.tobuild.text-intro.fadeInUp}
-   * 精准测试(差异化测试）{.tobuild.text-intro.fadeInUp}
-   * On-demand Test Infrastructure {.tobuild.text-intro.fadeInUp}
-   * Preposition testing (Compile Time Errors, Runtime Errors, Logic Errors) {.tobuild.text-intro.fadeInUp} 
-   * Connections (GitLab, Test Harness, Jira) .etc {.tobuild.text-intro.fadeInUp}
+### 未来计划 
+#### Projects {.tobuild.text-intro.fadeInUp}
+ * Viper-Lite 平台测试 SEP {.tobuild.fadeInUp}
+ * SenseNebula-M Lite迁移 ：{.tobuild.fadeInUp}
+   * 旧API功能上不变，考虑使用现有框架{.tobuild.fadeInUp}
+   * 新API,新功能使用SEP{.tobuild.fadeInUp}
+ * 现有测试框架SEP 集成 {.tobuild.fadeInUp}
+#### Practices(aka Ideas) {.tobuild.text-intro.fadeInUp}
+ * 精准测试(差异化测试）{.tobuild.fadeInUp}
+ * On-demand Test Infrastructure {.tobuild.fadeInUp}
+ * Preposition testing (Compile Time Errors, Runtime Errors, Logic Errors) {.tobuild.fadeInUp} 
+ * Connections (GitLab, Test Harness, Jira) .etc {.tobuild.fadeInUp}
 ---
 :::
 
