@@ -1,5 +1,5 @@
 ### 浅谈SenseNebula-M 测试实践 
-By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de767b8e258de0024d45e52&v=4) Powered by nodeppt 2.0 
+By Yang XinMing
 
 ---
 ![](public/img/waiguan.png)
@@ -17,8 +17,6 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
     <strong class="fa-stack-1x" style="color: white;">1</strong>
 </span>
 ### SenseNebula-M 是什么？
- * 商汤星云M系列智能边缘节点基于深度学习技术，是软硬件一体的嵌入式产品系列。 
- * SenseNebula-M 为摄像机、抓拍机等多种采集设备提供接入能力，支持人脸识别、人体分析等多算法融合，具有信号联动控制、数据 汇聚、云边协同等功能，为行业解决方案提供商、集成商、代理商提供适配多种场景的智能化产品和解决方案。 
 ![](public/img/nebula-m.png)
 
 ---
@@ -27,32 +25,12 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 
 ---
 ### 产品主要功能  
-#### 视频接入 
- * 支持网络摄像机 ONVIF、RTSP、GB28181 标准协议
- * 支持视频编码格式 H.264
- * 支持最大视频分辨率 1080P
- * 支持人脸检测感兴趣区域设置
- * 支持最小、最大人脸像素设置
-
-#### 图片接入
- * 支持 SenseDLC AA 系列、11 系列、D 系列、T 系列抓拍机接入
- * 支持其他主流厂家抓拍机等抓拍设备 SDK 二次开发接入
-
-#### 人像库
- * 支持黑/白名单库新增、编辑、删除，人像库图片导入、导出、编辑、删除
-
-#### 人脸功能
- * 人脸检测、跟踪、抓拍，抓拍及告警记录查看、条件检索、导出
- * 支持人脸 1:1、1:N 比对，返回相似度等信息
- * 人脸小图、场景大图、人脸质量分数、人脸属性推送
- * 人脸属性包括年龄、性别、胡子、口罩、眼镜、帽子等
-
-#### 人体功能
- * 人体检测、跟踪、抓拍，抓拍记录查看、条件检索、记录导出
- * 人体属性包括朝向、年龄、性别、帽子、头发、上衣、下衣、鞋子、口罩、雨伞、箱包等
-
-#### 信号联动
- * 网络继电器信号联动控制
+* 视频接入 
+* 图片接入
+* 人像库
+* 人脸功能
+* 人体功能
+* 信号联动
 
 ---
 #### Releases
@@ -79,7 +57,6 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
     <i class="fa fa-bookmark fa-stack-2x"></i>
     <strong class="fa-stack-1x" style="color: white;">2</strong>
 </span>
-### 我们是如何完成测试的? 
 #### 嵌入式设备测试的难点 
  * 需特别注重产品稳定性,健壮性,易用性 
  * 需适配场景众多,另需兼容各类设备 
@@ -88,12 +65,6 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 
 ---
 #### 我们的测试设备 
- * 15+ x 摄像头  
- * 2+ x 继电器 
- * 1 x 台式机 + 1 x 显示器
- * 1 x 服务器
- * SenseNebula-M 若干
- * 路由器，交换机，智能插座若干
 <img src="public/img/camera.png" width=550px class="tobuild fadeInUp delay-800" onclick="myfunction(this)">
 
 ---
@@ -104,6 +75,8 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span>  手动盒子测试断电，每次最多测几十次 
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span>  通过自动化之后，可以反复断电1晚 
  * [插座文档](/plug.pdf) 
+
+---
 <img src="public/img/plug.png">
 
 ---
@@ -115,6 +88,8 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 ### 网络继电器开🚪   
  * <span style="font-size:2rem; color:olive"> **BEFORE** </span>  只能通过听继电器的滴答声来确定触发 
  * <span style="font-size:2rem; color:lawngreen"> **AFTER** </span>  现在观察灯的闪烁就可以了解触发情况 
+
+---
 <video height="600" width="340" controls autoplay loop muted onclick="myfunction(this)">
     <source src="public/img/light.mp4" type="video/mp4">
 </video>
@@ -138,7 +113,7 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 * 有限时间
 * 有限人力
 * 保证覆盖
-## 保证产品质量，做到心里有数 
+#### 保证产品质量，做到心里有数 
 
 ---
 ### 我们测试的覆盖（E2E） 
@@ -147,7 +122,8 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 ---
 ### 我们的做法 Philosophy 
 Test Automation as a Key Enabler for High-performing Teams 
- 
+
+---
 #### 主要依靠自动化
  * 覆盖
    * 通过API覆盖超过<span style="font-size:3rem; color:lawngreen" class="fadeInUp"> **80%** </span> 以上的测试 
@@ -165,10 +141,9 @@ Test Automation as a Key Enabler for High-performing Teams
    * 可扩展性
 
 ---
-### 我们的做法 Philosophy 
 #### 结合部分手动
   * 延时
-  * 网络 [:fa-file-pdf-o:](/net.pdf)
+  * 网络
   * Web(做了部分的自动化)
   * 对接
 
@@ -177,6 +152,7 @@ Test Automation as a Key Enabler for High-performing Teams
     <source src="public/img/delay.mov" type="video/mp4">
 </video>
 
+---
 #### 另外
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
@@ -248,15 +224,20 @@ Test Automation as a Key Enabler for High-performing Teams
 <img src="public/img/testcase.png" class="aligncenter fadeInUp delay-400 size-80" onclick="myfunction(this)">
 
 ---
-### 我们测试的输出 
-<img src="public/img/report.png" onclick="myfunction(this)">
 #### 测试报告
-<img src="public/img/acc.png" onclick="myfunction(this)">
+<img src="public/img/report.png" onclick="myfunction(this)">
+
+---
 #### 准确率测试
-<img src="public/img/codecoverage.png" onclick="myfunction(this)">
+<img src="public/img/acc.png" onclick="myfunction(this)">
+
+---
 #### 代码覆盖率 [结果](http://10.151.3.74:3500/gcov/CoverageTest4/resultInfo.html)
-<img src="public/img/delay.png">
+<img src="public/img/codecoverage.png" onclick="myfunction(this)">
+
+---
 #### 延时测试
+<img src="public/img/delay.png">
 
 ---
 <span class="fa-stack fa-2x" style="z-index:100;color: LIGHTSALMON; position:fixed; top:0; left:0;">
@@ -278,12 +259,13 @@ Test Automation as a Key Enabler for High-performing Teams
 
 ---
 ### 未来计划 
-#### Projects 
  * Viper-Lite 平台测试 SEP 
  * SenseNebula-M Lite迁移 ：
    * 旧API功能上不变，考虑使用现有框架
    * 新API,新功能使用SEP
  * 现有测试框架SEP 集成 
+
+---
 #### Practices(aka Ideas) 
  * 精准测试(差异化测试）
  * On-demand Test Infrastructure 
