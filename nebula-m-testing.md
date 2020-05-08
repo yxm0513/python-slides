@@ -58,7 +58,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="fullscreen slideInRight">
-### 说人话 = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
+### TL;DR = 提供算力,人脸,人体等分析功能 {.aligncenter.text-landing.zoomIn}
 <img src="/img/deploy.png" class="aligncenter fadeInUp delay-400" onclick="myfunction(this)">
 
 <slide class="fullscreen">
@@ -387,7 +387,7 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 ## 保证产品质量，做到心里有数 {.tobuild .text-landing .content-center .zoomIn.delay-2000}
 
 <slide class="fullscreen slideInRight">
-### 我们测试的覆盖 {.aligncenter.text-landing.zoomIn}
+### 我们测试的覆盖（E2E） {.aligncenter.text-landing.zoomIn}
 <img src="/img/cover.png" class="aligncenter fadeInUp delay-800" onclick="myfunction(this)">
 </script>
 
@@ -576,6 +576,11 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
    * 旧API功能上不变，考虑使用现有框架{.tobuild.text-intro.fadeInUp}
    * 新API,新功能使用SEP{.tobuild.text-intro.fadeInUp}
  * 现有测试框架SEP 集成 {.tobuild.text-intro.fadeInUp}
+ * Todo(aka Ideas) {.tobuild.text-intro.fadeInUp}
+   * 精准测试(差异化测试）{.tobuild.text-intro.fadeInUp}
+   * On-demand Test Infrastructure {.tobuild.text-intro.fadeInUp}
+   * Preposition testing (Compile Time Errors, Runtime Errors, Logic Errors) {.tobuild.text-intro.fadeInUp} 
+   * Connections (GitLab, Test Harness, Jira) .etc {.tobuild.text-intro.fadeInUp}
 ---
 :::
 
