@@ -577,7 +577,7 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
    * 新API,新功能使用SEP{.tobuild.fadeInUp}
  * 现有测试框架SEP 集成 {.tobuild.fadeInUp}
 #### Practices(aka Ideas) {.tobuild.text-intro.fadeInUp}
- * 精准测试(差异化测试）{.tobuild.fadeInUp}
+ * 精准测试(test against difference, compare with snapshots, record and replay）{.tobuild.fadeInUp}
  * On-demand Test Infrastructure {.tobuild.fadeInUp}
  * Preposition testing (Compile Time Errors, Runtime Errors, Logic Errors) {.tobuild.fadeInUp} 
  * Connections (GitLab, Test Harness, Jira) .etc {.tobuild.fadeInUp}
