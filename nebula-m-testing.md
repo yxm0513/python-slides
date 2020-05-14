@@ -392,12 +392,15 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 </script>
 
 <slide class="fullscreen slideInRight">
-### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
+## 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
 
-Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-intro.fadeInUp}
+<img src="/img/process.png" class="aligncenter fadeInUp delay-800" onclick="myfunction(this)">
 
+## Test Automation as a Key Enabler for High-performing Teams {.tobuild.aligncenter.text-intro.fadeInUp}
+
+<slide class="fullscreen slideInRight">
+## 主要依靠自动化{.aligncenter.text-landing.fadeInUp}
 :::column {.mycolumn}
-#### 主要依靠自动化{.content-left.tobuild}
  * 覆盖\:
 {.build}
    * 通过API覆盖超过<span style="font-size:3rem; color:lawngreen" class="fadeInUp"> **80%** </span> 以上的测试 
@@ -417,9 +420,9 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
    * 可扩展性
 
 <slide class="fullscreen slideInLeft">
-### 我们的做法 Philosophy {.aligncenter.text-landing.fadeInUp}
+## 结合部分手动{.aligncenter.text-landing.fadeInUp}
 :::column {.mycolumn}
-#### 结合部分手动{.content-left.tobuild}
+#### 手动测试 {.content-left.tobuild}
   * 延时
   * 网络 [:fa-file-pdf-o:](/net.pdf)
   * Web(做了部分的自动化)
@@ -431,7 +434,7 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
 </video>
 
 ---
-#### 另外{.content-left.tobuild}
+### 另外{.content-left.tobuild}
   * 主动的推动流程的规范化，需求，开发自测，打包，提测，release流程
   * 在项目相对空挡，或者pending的时候，提前做一下技术上的准备，比如完成框架的优化。
 {.description.tobuild}
@@ -578,7 +581,7 @@ Test Automation as a Key Enabler for High-performing Teams {.aligncenter.text-in
  * 现有测试框架SEP 集成 {.tobuild.fadeInUp}
 #### Practices(aka Ideas) {.tobuild.text-intro.fadeInUp}
  * 精准测试(test against difference, compare with snapshots, record and replay）{.tobuild.fadeInUp}
- * On-demand Test Infrastructure {.tobuild.fadeInUp}
+ * On-demand Test Infrastructure (distribute tests over many workers){.tobuild.fadeInUp}
  * Preposition testing (Compile Time Errors, Runtime Errors, Logic Errors) {.tobuild.fadeInUp} 
  * Connections (GitLab, Test Harness, Jira) .etc {.tobuild.fadeInUp}
 ---
