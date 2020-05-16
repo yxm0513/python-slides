@@ -96,10 +96,9 @@ Powered by nodeppt 2.0 {.text-subtitle.bounceInLeft.slow}
 :::
 
 <slide class="grid aligncenter fullscreen">
-#### Releases
-<br>
-
-*From 2019.05.30 To 2020.03.26 ,More Than 16 Releases* {.bounceInLeft.tobuild}
+### Releases
+<hr>
+#### *From 2019.05.30 To 2020.03.26 ,More Than 16 Releases* {.bounceInLeft.tobuild}
 :::div {.mydiv}
  * 硬件 {.bounceInLeft.tobuild}
    * 一代TX2平台, 二代3559A平台 {.bounceInLeft.tobuild}
