@@ -4,10 +4,10 @@ transition: cards
 prismTheme: dark
 css:
     - css/base.css
+    - css/gh-fork-ribbon.min.css
 js:
     - js/zoom.js
     - js/base.js
-    - https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css
 plugins:
     - echarts
     - mermaid
