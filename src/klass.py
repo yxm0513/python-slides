@@ -1,6 +1,8 @@
 class TestA():
     X = 1
     Y = 1
+    Z = []
+    M = {}
     def __init__(self, x=1, y=2):
         self.x = x
         self.y = y
@@ -13,6 +15,7 @@ class TestA():
 
 class TestB(TestA):
     X = 2 
+    Z = [1]
     def __init__(self, x=1, y=2):
         self.xb = x
         self.yb = y

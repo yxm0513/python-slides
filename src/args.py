@@ -12,3 +12,4 @@ if __name__ == '__main__':
     b = {'1':2, '3':4}
     foo(a, b)
     foo(*a, **b)
+    foo(b)
