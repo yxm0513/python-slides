@@ -1,4 +1,4 @@
-title: Python from scratch
+title: Python From Scratch
 speaker: yangxinming
 transition: cards
 prismTheme: dark
@@ -176,10 +176,10 @@ func = decorator(args)(func)
 ### class
 
 :::div {.mydiv}
-* namepace : Class -- define a boxed set of data and functions.
-* Classes provide a means of bundling data and functionality together.
-* Creating a new class creates a new type of object, allowing new instances of that type to be made.
-* Classes are just basically custom types.
+* namepace \: Class -- define a boxed set of data and functions.{.tobuild}
+  * Classes provide a means of bundling data and functionality together.{.tobuild}
+  * Creating a new class creates a new type of object, allowing new instances of that type to be made.{.tobuild}
+  * Classes are just basically custom types.{.tobuild}
 {.build.description.text-intro}
 :::
 <slide class="aligncenter fullscreen">
