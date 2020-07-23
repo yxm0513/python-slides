@@ -83,20 +83,24 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 
 ----
 ##### installations{.content-left.tobuild}
-  * python/venv {.animated.zoomIn.tobuild}
-  * libraries {.animated.zoomIn.tobuild}
+  * python/venv {.zoomIn.tobuild}
+  * libraries {.zoomIn.tobuild}
+    * apt-get, python setup.py install {.zoomIn.tobuild}
+    * easy_install {.zoomIn.tobuild}
+    * pip -> pip install -r requirements.txt, pip freeze > requirements.txt {.zoomIn.tobuild}
 ##### run {.content-left.tobuild}
-  * interupter {.animated.zoomIn.tobuild}
-  * python xxx.py {.animated.zoomIn.tobuild}
+  * interupter {.zoomIn.tobuild}
+  * python xxx.py {.zoomIn.tobuild}
 
 
 <slide class="aligncenter fullscreen">
 ### basics - editing & debugging
 <br>
 :::div {.mydiv}
-* vim, VS code, pycharm, sublimetext
-* pdb
-* vprof, python -m cProfile -m module | myscript.py
+* vim, VS code, pycharm, sublimetext {.zoomIn.tobuild}
+* pdb{.zoomIn.tobuild}
+* vprof, python -m cProfile -m module | myscript.py{.zoomIn.tobuild}
+* coverage.py {.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 
@@ -104,9 +108,9 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 ### data types {.zoomIn}
 <br>
 :::div {.mydiv}
- * bool、int、long、float 和 complex
- * 字符串、元组、列表、集合，字典{.animated.zoomIn}
- * 定义，方法，转换, inspect {.animated.zoomIn}
+ * bool、int、long、float 和 complex {.zoomIn.tobuild}
+ * 字符串、元组、列表、集合，字典{.zoomIn.tobuild}
+ * 定义，方法，转换, inspect {.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 
@@ -114,25 +118,23 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 ### conditionals and loops {.zoomIn}
 <br>
 :::div {.mydiv}
- * if x\:  or if not x\:
- * for x in \: {.animated.zoomIn}
- * while xxx \: {.animated.zoomIn}
+ * if x\:  or if not x\: {.zoomIn.tobuild}
+ * for x in \: {.zoomIn.tobuild}
+ * while xxx \: {.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 
 <slide class="aligncenter fullscreen">
-### functions {.zoomIn}
+### functions - def xxx_name()\: {.zoomIn}
 
-### def xxx_name()\:
 :::div {.mydiv}
- * 函数定义时,三个类型参数 {.tobuild}
-   * positioned arg {.tobuild}
-   * \*args表示任何多个无名参数，它是一个tuple； --> \*p 不管什么参数传进来，就转换成tuple{.tobuild}
-   * \*\*kwargs表示关键字参数，它是一个dict。并且同时使用\*args和\*\*kwargs时，必须\*args参数列要在\*\*kwargs前  --> \*\*p是转换成dict{.tobuild}
-   * 如果同时出现，看调用的时候的格式=来标识dict开始{.tobuild}
- * 函数调用时候，\* \*\*相当于dearchive成tuple和key=value的形式，再传入{.tobuild}
- * 默认参数{.tobuild}
-{.build.description.text-intro}
+ * 函数定义时,三个类型参数 {.zoomIn.tobuild}
+   * positioned arg {.zoomIn.tobuild}
+   * \*args表示任何多个无名参数，它是一个tuple； --> \*p 不管什么参数传进来，就转换成tuple{.zoomIn.tobuild}
+   * \*\*kwargs表示关键字参数，它是一个dict。并且同时使用\*args和\*\*kwargs时，必须\*args参数列要在\*\*kwargs前  --> \*\*p是转换成dict{.zoomIn.tobuild}
+   * 如果同时出现，看调用的时候的格式=来标识dict开始{.zoomIn.tobuild}
+ * 函数调用时候，\* \*\*相当于dearchive成tuple和key=value的形式，再传入{.zoomIn.tobuild}
+ * 默认参数{.zoomIn.tobuild}
 :::
 
 <slide class="aligncenter fullscreen">
@@ -148,13 +150,18 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 ### functions as objects {.zoomIn}
 
 :::div {.mydiv}
-* 一个函数是一个被它自己定义而执行的对象;{.tobuild}
-* 默认参数是一种"成员数据",functions的状态和其他对象一样,会随着每一次调用而改变.{.tobuild}
-  * have types{.tobuild}
-  * can be sent as arguments to another function{.tobuild}
-  * can be used in expression{.tobuild}
-  * can become part of various data structures like dictionaries{.tobuild}
-{.build.description.text-intro}
+* 一个函数是一个被它自己定义而执行的对象;{.zoomIn.tobuild}
+* 默认参数是一种"成员数据",functions的状态和其他对象一样,会随着每一次调用而改变.{.zoomIn.tobuild}
+	* have types{.zoomIn.tobuild}
+	* can be sent as arguments to another function{.zoomIn.tobuild}
+	* can be used in expression{.zoomIn.tobuild}
+	* can become part of various data structures like dictionaries{.zoomIn.tobuild}
+* 属性 {.zoomIn.tobuild}
+    * '\_\_module\_\_' \: 函数模块{.zoomIn.tobuild}
+    * '\_\_name\_\_' \: 函数名称{.zoomIn.tobuild}
+    * '\_\_defaults\_\_' \: 默认参数{.zoomIn.tobuild}
+    * '\_\_doc\_\_' \: 文档{.zoomIn.tobuild}
+    * '\_\_code\_\_' \: code object{.zoomIn.tobuild}
 :::
 ![](/img/func.png)
 
@@ -176,24 +183,24 @@ func = decorator(args)(func)
 ### class
 
 :::div {.mydiv}
-* namepace \: Class -- define a boxed set of data and functions.{.tobuild}
-  * Classes provide a means of bundling data and functionality together.{.tobuild}
-  * Creating a new class creates a new type of object, allowing new instances of that type to be made.{.tobuild}
-  * Classes are just basically custom types.{.tobuild}
+* namepace \: Class -- define a boxed set of data and functions.{.zoomIn.tobuild}
+	* Classes provide a means of bundling data and functionality together.{.zoomIn.tobuild}
+	* Creating a new class creates a new type of object, allowing new instances of that type to be made.{.zoomIn.tobuild}
+	* Classes are just basically custom types.{.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 <slide class="aligncenter fullscreen">
 ### class
 
 :::div {.mydiv}
-* c = classname() \: --> 实例化 {.tobuild}
-  * \_\_init\_\_(self, *args)  \: 初始化方法 {.tobuild}
-  * \_\_new\_\_(cls, *args, \*\*kwargs) \: 构造函数 {.tobuild}
-  * \_\_new\_\_方法用于创建对象并返回对象，当返回对象时会自动调用\_\_init\_\_方法进行初始化。\_\_new\_\_方法是静态方法，而\_\_init\_\_是实例方法 {.tobuild}
-  * \_\_new\_\_() is intended mainly to allow subclasses of immutable types (like int, str, or tuple) to customize instance creation. It is also commonly overridden in custom metaclasses in order to customize class creation. {.tobuild}
-* python的类没有访问权限的问题，也就是说所有的变量都是可访问的,私有的机制，就是在属性前加__，但是这种私有机制实际上也是伪私有，因为它其实是用一个别名来保存这个属性 {.tobuild}
-* 允许多重继承，类似C++,不同于java {.tobuild}
-* 多态Polymorphism \: 通过参数的不同来区分不同的func {.tobuild}
+* c = classname() \: --> 实例化 {.zoomIn.tobuild}
+  * \_\_init\_\_(self, *args)  \: 初始化方法 {.zoomIn.tobuild}
+  * \_\_new\_\_(cls, *args, \*\*kwargs) \: 构造函数 {.zoomIn.tobuild}
+  * \_\_new\_\_方法用于创建对象并返回对象，当返回对象时会自动调用\_\_init\_\_方法进行初始化。\_\_new\_\_方法是静态方法，而\_\_init\_\_是实例方法 {.zoomIn.tobuild}
+  * \_\_new\_\_() is intended mainly to allow subclasses of immutable types (like int, str, or tuple) to customize instance creation. It is also commonly overridden in custom metaclasses in order to customize class creation. {.zoomIn.tobuild}
+* python的类没有访问权限的问题，也就是说所有的变量都是可访问的,私有的机制，就是在属性前加__，但是这种私有机制实际上也是伪私有，因为它其实是用一个别名来保存这个属性 {.zoomIn.tobuild}
+* 允许多重继承，类似C++,不同于java {.zoomIn.tobuild}
+* 多态Polymorphism \: 通过参数的不同来区分不同的func {.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 
@@ -261,12 +268,12 @@ def __init__(self, name):
 <slide class="aligncenter fullscreen">
 ###  class \: \_\_dict\_\_
 :::div {.mydiv}
-* 用来存属性 {.tobuild}
-  * class的存在 obj.\_\_class\_\_.\_\_dict\_\_里   -> Class 也是type的一个instance {.tobuild}
-  * object 的存在 object.\_\_dict\_\_里 {.tobuild}
-* 查找是先查object的，再查class的，查不到AttributeError {.tobuild}
-* 修改属性的时候，mutable的list,dict需要特别小心，因为从instance修改，class的也就被修改了，和inmutable的不一样，因为是reference. (avoid class variables unless you have a reason to use them) {.tobuild}
-* __dict__是dir()的子集，dir()包含__dict__中的属性。{.tobuild}
+* 用来存属性 {.zoomIn.tobuild}
+  * class的存在 obj.\_\_class\_\_.\_\_dict\_\_里   -> Class 也是type的一个instance {.zoomIn.tobuild}
+  * object 的存在 object.\_\_dict\_\_里 {.zoomIn.tobuild}
+* 查找是先查object的，再查class的，查不到AttributeError {.zoomIn.tobuild}
+* 修改属性的时候，mutable的list,dict需要特别小心，因为从instance修改，class的也就被修改了，和inmutable的不一样，因为是reference. (avoid class variables unless you have a reason to use them) {.zoomIn.tobuild}
+* __dict__是dir()的子集，dir()包含__dict__中的属性。{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 
@@ -286,8 +293,8 @@ def __init__(self, name):
 <slide class="aligncenter fullscreen">
 ###  class \: \_\_slots\_\_
 :::div {.mydiv}
-* \_\_dict\_\_ 来存属性，当属性和实例特别多的时候，特别浪费内存，{.tobuild}
-* 有时候我们只想使用固定的对象，而不想任意绑定对象，这时候我们可以定义一个属性名称集合，只有在这个集合里的名称才可以绑定。__slots__就是完成这个功能的。 {.tobuild}
+* \_\_dict\_\_ 来存属性，当属性和实例特别多的时候，特别浪费内存，{.zoomIn.tobuild}
+* 有时候我们只想使用固定的对象，而不想任意绑定对象，这时候我们可以定义一个属性名称集合，只有在这个集合里的名称才可以绑定。__slots__就是完成这个功能的。 {.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 ```python
@@ -317,11 +324,14 @@ AttributeError: 'Student' object has no attribute 'score'
         * __class__ : 生成该实例的类
         * __methods__ : 实例所有方法的列表
 <slide class="aligncenter fullscreen">
-###  class : \@property {.zoomIn}
-* \@property 可以将python定义的函数“当做”属性访问，从而提供更加友好访问方式，但是有时候setter/getter也是需要的
-```python
+###  class \: \@property {.zoomIn}
+:::div {.mydiv}
+* \@property 可以将python定义的函数“当做”属性访问，从而提供更加友好访问方式，但是有时候setter/getter也是需要的 {.zoomIn.tobuild}
+:::
+:::column {.aligncenter}
+```python 
 class C(object):
-  def \_\_init\_\_(self):
+  def __init__(self):
       self._x = None
   def getx(self):
       return self._x
@@ -332,50 +342,71 @@ class C(object):
 
 x = property(getx, setx, delx, "I'm the 'x' property.")
 ```
+----
+
+```python
+class Parrot(object):
+    def __init__(self):
+        self._voltage = 100000
+ 
+    @property
+    def voltage(self):
+        """Get the current voltage."""
+        return self._voltage
+```
+:::
 
 <slide class="aligncenter fullscreen">
 ###  class \: method
 :::div {.mydiv}
-* 和一般的方法没有差别，创建了一个方法的实例，使用class的namespace.  {.tobuild}
-* 实例方法 \:def function_name(self, )\: ⇒ Class().function_name() {.tobuild}
-  * 初始化方法 def \_\_init\_\_(self, name)\: {.tobuild}
-  * 析构函数 def \_\_del\_\_(self)\: {.tobuild}
-* 类方法 \:  {.tobuild}
-  * @classmethod {.tobuild}
-  * def function_name(cls, )\:  ⇒ Class.function_name(){.tobuild}
-  * 一个类方法就可以通过类或它的实例来调用的方法, 不管你是用类来调用这个方法还是类实例调用这个方法,该方法的第一个参数总是定义该方法的类。{.tobuild}
-* 静态方法 ： {.tobuild}
-  * @staticmethod {.tobuild}
-  * def function_name()\:    ⇒ Class.function_name()  --> 可直接用class后跟的这个名字，也可是传入的cls {.tobuild}
-  * 好处是，不需要定义实例即可使用这个方法。另外，多个实例共享此静态方法。  -->相当于package带的一个方法 {.tobuild}
+* 和一般的方法没有差别，创建了一个方法的实例，使用class的namespace.  {.zoomIn.tobuild}
+* 实例方法 \:def function_name(self, )\: ⇒ Class().function_name() {.zoomIn.tobuild}
+  * 初始化方法 def \_\_init\_\_(self, name)\: {.zoomIn.tobuild}
+  * 析构函数 def \_\_del\_\_(self)\: {.zoomIn.tobuild}
+* 类方法 \:  {.zoomIn.tobuild}
+  * @classmethod {.zoomIn.tobuild}
+  * def function_name(cls, )\:  ⇒ Class.function_name(){.zoomIn.tobuild}
+  * 一个类方法就可以通过类或它的实例来调用的方法, 不管你是用类来调用这个方法还是类实例调用这个方法,该方法的第一个参数总是定义该方法的类。{.zoomIn.tobuild}
+* 静态方法 ： {.zoomIn.tobuild}
+  * @staticmethod {.zoomIn.tobuild}
+  * def function_name()\:    ⇒ Class.function_name()  --> 可直接用class后跟的这个名字，也可是传入的cls {.zoomIn.tobuild}
+  * 有很多情况下一些函数与类相关，但不需要任何类或实例变量就可以实现一些功能 (.eg 环境相关，连接数据库等) {.zoomIn.tobuild}
+  * 好处是，不需要定义实例即可使用这个方法。另外，多个实例共享此静态方法。  -->相当于package带的一个方法 {.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 
 <slide class="aligncenter fullscreen">
 ### Module & Package
 :::div {.mydiv}
-* .py 单文件表示模块，目录下\_\_init\_\_.py表示package {.tobuild}
-* import packge 会先import \_\_init\_\_.py, 如果使用import package相当于import了package下的\_\_init\_\_.py {.tobuild}
-* import * 对应package 下 \_\_init\_\_.py 中 \_\_all\_\_释出的函数，{.tobuild}
+* .py 单文件表示模块，目录下\_\_init\_\_.py表示package {.zoomIn.tobuild}
+* import packge 会先import \_\_init\_\_.py, 如果使用import package相当于import了package下的\_\_init\_\_.py {.zoomIn.tobuild}
+* import * 对应package 下 \_\_init\_\_.py 中 \_\_all\_\_释出的函数，{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 
 <slide class="aligncenter fullscreen">
 ### import
 :::div {.mydiv}
-* import一个module，文件就从头到尾执行一遍,并形成关联 {.tobuild}
-* import folder 只是导入package，相当于执行\_\_init\_\_.py文件 {.tobuild}
-* from folder import abcd则执行了\_\_init\_\_.py文件文件与abcd.py文件{.tobuild}
-* from folder.abcd import b也执行了\_\_init\_\_.py文件文件与abcd.py文件{.tobuild}
-* import path.file.func 使用时需要全路径{.tobuild}
-* from path import file 使用file.func{.tobuild}
-* from path.file import func 直接使用func{.tobuild}
-* \_\_import\_\_() {.tobuild}
+* import主要是做了二件事 {.zoomIn.tobuild}
+  1. 查找相应的module -> sys.modules -> sys.meta_path _>  sys.path_hooks, sys.path_importer_cache, sys.path -> ImportError{.zoomIn.tobuild}
+  2. 加载module到module global namespace  --> import一个module，文件就从头到尾执行一遍,并形成关联 {.zoomIn.tobuild}
+* sys.modules {.zoomIn.tobuild}
+  1. 导入一个新的模块的时候,会在sys.module中插入一条key-value对，key是module名，value就是所导入的module对象。{.zoomIn.tobuild}
+  2. 当下一次import相同模块的时候，会先在sys.module中查找该模块，如果存在则直接导入sys.module中的module对象。{.zoomIn.tobuild}
+  3. 将module对象加入到global namespace中，当程序需要调用该模块时，会从global namespace中检索。{.zoomIn.tobuild}
+* 语法 {.zoomIn.tobuild}
+	* import folder 只是导入package，相当于执行\_\_init\_\_.py文件 {.zoomIn.tobuild}
+	* from folder import abcd则执行了\_\_init\_\_.py文件文件与abcd.py文件{.zoomIn.tobuild}
+	* from folder.abcd import b也执行了\_\_init\_\_.py文件文件与abcd.py文件{.zoomIn.tobuild}
+	* import path.file.func 使用时需要全路径{.zoomIn.tobuild}
+	* from path import file 使用file.func{.zoomIn.tobuild}
+	* from path.file import func 直接使用func{.zoomIn.tobuild}
+* \_\_import\_\_() {.zoomIn.tobuild}
     * function can be used to import modules where the name is only known at runtime --> 动态的导入（module层面）
-    * using import somename will add somename to your namespace, but \_\_import\_\_('somename') instead returns the imported module {.tobuild}
-    * xxx = \_\_import\_\_("xxx"){.tobuild}
-    * mod = \_\_import\_\_(r"C:/path/to/file/anywhere/on/computer/module.py"){.tobuild}
-* dir() is used to find out which names a module defines{.tobuild}
+    * using import somename will add somename to your namespace, but \_\_import\_\_('somename') instead returns the imported module {.zoomIn.tobuild}
+    * xxx = \_\_import\_\_("xxx"){.zoomIn.tobuild}
+    * mod = \_\_import\_\_(r"C:/path/to/file/anywhere/on/computer/module.py"){.zoomIn.tobuild}
+* dir() is used to find out which names a module defines{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 
@@ -502,28 +533,91 @@ NameError: name 'reload' is not defined
 
 <slide class="aligncenter fullscreen">
 ### Namespace {.zoomIn}
-LEGB\: LOCAL>ENCLOSING>global>built in
+
 :::div {.mydiv}
-* locals\:函数内部的名字空间，一般包括函数的局部变量以及形式参数
-* locals()是只读的(不能改变)，globals不是（可以改变）
-* locals()没有返回局部命名空间，它返回的是一个拷贝。所以对它进行改变，对局部命名空间中的变量值没有影响
-* enclosing\:在嵌套函数中外部函数的名字空间, 对fun2来说， fun1的名字空间就是.
-* globals\:当前的模块空间，模块就是一些py文件。也就是说，globals()类似全局变量。
-* globals()返回全部实际命名空间，而非拷贝。所以globals返回的dict任何改动都会影响到全局变量
-* \_\_builtins\_\_\: 内置模块空间，也就是内置变量或者内置函数的名字空间。
+* 简单的讲就是：name到对象的映射 {.zoomIn.tobuild}
+* LEGB\: LOCAL>ENCLOSING>global>built_in {.zoomIn.tobuild}
+	* locals\:函数内部的名字空间，一般包括函数的局部变量以及形式参数 {.zoomIn.tobuild}
+	* locals()是只读的(不能改变)，globals不是（可以改变）{.zoomIn.tobuild}
+	* locals()没有返回局部命名空间，它返回的是一个拷贝。所以对它进行改变，对局部命名空间中的变量值没有影响{.zoomIn.tobuild}
+	* enclosing\:在嵌套函数中外部函数的名字空间, 对fun2来说， fun1的名字空间就是.{.zoomIn.tobuild}
+	* globals\:当前的模块空间，模块就是一些py文件。也就是说，globals()类似全局变量。{.zoomIn.tobuild}
+	* globals()返回全部实际命名空间，而非拷贝。所以globals返回的dict任何改动都会影响到全局变量{.zoomIn.tobuild}
+	* \_\_builtins\_\_\: 内置模块空间，也就是内置变量或者内置函数的名字空间。{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
 
 <slide class="aligncenter fullscreen">
 ### Namespace {.zoomIn}
 :::div {.mydiv}
-* Python 一切皆对象，每个对象都具有 一个ID、一个类型、一个值；对象一旦建立，ID 便不会改变，可以直观的认为 ID 就是对象在内存中的地址
-* 标识符\:  各类对象的名称，比如函数名、方法名、类名，变量名、常量名等。 identifier，中文名为“标识符”
-* 在 Python 中赋值并不会直接复制数据，而只是将名称绑定到对象
-* 命名空间：（英语：Namespace）表示标识符（identifier）的可见范围。 简而言之，命名空间可以被简单的理解为：存放和使用对象名字的抽象空间。
-* 与命名空间相对的一个概念就是“作用域”，那么什么又是作用域呢？作用域：（英文 Scope）是可以直接访问到命名空间的文本区域。
+* Python 一切皆对象，每个对象都具有 一个ID、一个类型、一个值；对象一旦建立，ID 便不会改变，可以直观的认为 ID 就是对象在内存中的地址{.zoomIn.tobuild}
+* 标识符\:  各类对象的名称，比如函数名、方法名、类名，变量名、常量名等。 identifier，中文名为“标识符”{.zoomIn.tobuild}
+* 在 Python 中赋值并不会直接复制数据，而只是将名称绑定到对象{.zoomIn.tobuild}
+* 命名空间：（英语：Namespace）表示标识符（identifier）的可见范围。 简而言之，命名空间可以被简单的理解为：存放和使用对象名字的抽象空间。{.zoomIn.tobuild}
+* 与命名空间相对的一个概念就是“作用域”，那么什么又是作用域呢？作用域：（英文 Scope）是可以直接访问到命名空间的文本区域。{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
+
+<slide class="aligncenter fullscreen">
+### containers vs. iterators vs. generators {.zoomIn}
+:::div {.mydiv}
+:::column {.sm .aligncenter}
+ * container \:  {.zoomIn.tobuild}
+   * list, deque, …. {.zoomIn.tobuild}
+   * set, frozensets, ….{.zoomIn.tobuild}
+   * dict, defaultdict, OrderedDict, Counter, ….{.zoomIn.tobuild}
+   * tuple, namedtuple, ….{.zoomIn.tobuild}
+   * str{.zoomIn.tobuild}
+ * iterators \: \_\_iter\_\_ \_\_next\_\_   {.zoomIn.tobuild}
+ * generators \: yield{.zoomIn.tobuild}
+   * (i for i in range(10)) {.zoomIn.tobuild}
+   * def func(data)\:  for i in data\: yield i {.zoomIn.tobuild}
+
+----
+
+<img src="/img/generator.png" class='aligncenter' width=700  onclick="myfunction(this)">
+:::
+
+<slide class="aligncenter fullscreen">
+### containers vs. iterators vs. generators {.zoomIn}
+
+```python
+>>> a =[1, 2, 3, 4]
+>>> dir(a)
+['__add__', '__class__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> b = iter(a)
+>>> type(b)
+<class 'list_iterator'>
+>>> dir(b)
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__length_hint__', '__lt__', '__ne__', '__new__', '__next__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__']
+>>> b.__next__()
+1
+>>> b.__next__()
+2
+>>> b.__next__()
+3
+
+>>> (x for x in [1,2,3])
+<generator object <genexpr> at 0x7f8177ad1ed0>
+
+
+>>> def test_func():
+...     for x in [1,2,3]:
+...             yield x
+...
+>>> test_func()
+<generator object test_func at 0x7f8177ad1ed0>
+
+>>> for x in test_func():
+...     print(x)
+...
+1
+2
+3
+
+
+```
+
 
 <slide class="aligncenter fullscreen">
 ### errors and exceptions
@@ -596,19 +690,22 @@ dir(__builtins__)
 ### eval, exec, compile
 <br>
 :::div {.mydiv}
- * eval -> 输入expression, expr -> value {.tobuild}
- * exec -> python code string  --> ignore return value {.tobuild}
- * compile {.tobuild}
-    * exec mode -> python file --> bytecode and return None{.tobuild}
-    * eval mode -> python file --> bytecode and return value{.tobuild}
+ * eval -> 输入expression, expr -> value {.zoomIn.tobuild}
+ * exec -> python code string  --> ignore return value {.zoomIn.tobuild}
+ * compile {.zoomIn.tobuild}
+    * exec mode -> python file --> bytecode and return None{.zoomIn.tobuild}
+    * eval mode -> python file --> bytecode and return value{.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
 ![](/img/exec.png)
 
 <slide class="aligncenter fullscreen">
 ### monkey patching {.zoomIn}
-
-"monkey patching" means adding a new variable or method to a class after it's been defined.
+:::div {.mydiv}
+ * "monkey patching" means adding a new variable or method to a class after it's been defined. {.zoomIn.tobuild}
+ * 将新的module替换掉sys.modules中的对象，如果该module还未被导入，则先对进行加载。这样，当程序需要导入module的时候，就会从sys.modules中导入被修改后打module对象，也就实现了monkey patch。 {.zoomIn.tobuild}
+:::
+:::column {.aligncenter}
 ```python
 
 class A(object):
@@ -622,9 +719,17 @@ def get_num(self):
 
 A.get_num = get_num
 ```
+----
+
+<img src="/img/monkey.png" class='aligncenter' width=400  onclick="myfunction(this)">
+
+:::
 
 <slide class="aligncenter fullscreen">
 ### regex {.zoomIn}
+:::column {.aligncenter}
+
+
 ```python
 import re
 patterns = 'abc'
@@ -635,10 +740,17 @@ or
 
 result = re.match(patterns, string)
 ```
+----
+
+
 :::div {.mydiv}
-* 是否匹配 ?
-* 匹配的部分，和原字串的关系 ?
-{.build.description.text-intro}
+* 是否匹配 ?{.zoomIn.tobuild}
+	* MatchObject or None{.zoomIn.tobuild}
+* 匹配的部分，和原字串的关系 ?{.zoomIn.tobuild}
+	* a.string —>原始的需要匹配的字串{.zoomIn.tobuild}
+	* a.group -> 匹配到的字符串{.zoomIn.tobuild}
+:::
+
 :::
 
 <slide class="aligncenter fullscreen">
@@ -653,17 +765,17 @@ result = re.match(patterns, string)
   * VERBOSE, X 能够使用 REs 的 verbose 状态，使之被组织得更清晰易懂
 :::
 <slide class="aligncenter fullscreen">
-### re \: RegexObject{.zoomIn}
-:::div {.mydiv}
- * .match 如果 string 开始的0或者多个字符匹配到了正则表达式样式，就返回一个相应的 匹配对象 。 如果没有匹配，就返回 None ；注意它跟零长度匹配是不同的。
- * .search 扫描整个 字符串 找到匹配样式的第一个位置，并返回一个相应的 匹配对象。如果没有匹配，就返回一个 None ； 注意这和找到一个零长度匹配是不同的。
- * .findall()
- * .split() 分割
- *  p.sub, subn 替换
-:::
-<slide class="aligncenter fullscreen">
-### re \: MatchObject{.zoomIn}
-:::div {.mydiv}
+### re \: RegexObject & MatchObject{.zoomIn}
+:::column {.aligncenter.build.zoomIn}
+
+* .match 如果 string 开始的0或者多个字符匹配到了正则表达式样式，就返回一个相应的 匹配对象 。 如果没有匹配，就返回 None ；注意它跟零长度匹配是不同的。
+* .search 扫描整个 字符串 找到匹配样式的第一个位置，并返回一个相应的 匹配对象。如果没有匹配，就返回一个 None ； 注意这和找到一个零长度匹配是不同的。
+* .findall()
+* .split() 分割
+*  p.sub, subn 替换
+
+----
+
 * group (?P<组名>Patterns)\:
     * 和perl 一样partens中()表示组，p.group(n) 来取出相应的组，
     * (?P<组名>Patterns) 来命名组,命名组可以用p.group(“组名”)取得。
@@ -673,7 +785,9 @@ result = re.match(patterns, string)
 * groups
 * span \: Returns both the beginning and ending positions of a group
 * escape(string) : Escapes all special regexp characters in string
-:::
+
+
+
 
 <slide class="aligncenter fullscreen">
 ### system commands
@@ -693,6 +807,16 @@ result = re.match(patterns, string)
 
 <slide class="aligncenter fullscreen">
 ### 输出输出
+:::column {.aligncenter}
+
+```python
+import sys
+for line in sys.stdin:
+    process(line)
+```
+
+----
+
 :::div {.mydiv}
 * raw_input()/input : string / number
 * print / sys.stdout.write  sys.stderr.write()
@@ -703,14 +827,12 @@ result = re.match(patterns, string)
 * sys.stderr - Standard error
 :::
 
-```python
-import sys
-for line in sys.stdin:
-    process(line)
-```
+
 
 <slide class="aligncenter fullscreen">
-### 文件操作 {.zoomIn}
+### 文件&目录操作 {.zoomIn}
+:::column {.aligncenter}
+
     * files = glob.glob('*.py')
     * f= open(name[, mode[, buffering]])
         * 'r' Read mode
@@ -729,8 +851,9 @@ for line in sys.stdin:
         * f.writelines()
     * f.close()
     * f.closed()
-<slide class="aligncenter fullscreen">
-### 目录操作
+
+----
+
     * for (dirpath, dirnames, filenames) in os.walk(basedir):
     * os.path.join(,)
     * os.path.abspath()
@@ -738,11 +861,13 @@ for line in sys.stdin:
 
 <slide class="aligncenter fullscreen">
 ### 并发 {.zoomIn}
+:::column {.aligncenter}
 ![](/img/proc.png)
 
-<slide class="aligncenter fullscreen">
-### 并发 {.zoomIn}
+----
+
 ![](/img/proc1.png)
+
 
 <slide class="aligncenter fullscreen">
 ### Process & Thread 使用方式 {.zoomIn}
@@ -768,6 +893,18 @@ for line in sys.stdin:
 
 <slide class="aligncenter fullscreen">
 ### Process {.zoomIn}
+:::column {.aligncenter}
+```python
+    import os
+    pid = os.fork()      # Create child
+    if pid == 0:
+        # Child process
+        os.execvp("ls", ["ls","-l"])
+    else:
+        os.wait()        # Wait for child
+```
+----
+
     * Process Creation and DestructionCanonical Example
         * fork-exec-wait
             * os.fork() # Create a child process.
@@ -779,15 +916,7 @@ for line in sys.stdin:
             * os.waitpid(pid,options) # Wait for change in state of child
             * os.system(command) # Execute a system command
             * os._exit(n) # Exit immediately with status n.
-```python
-    import os
-    pid = os.fork()      # Create child
-    if pid == 0:
-        # Child process
-        os.execvp("ls", ["ls","-l"])
-    else:
-        os.wait()        # Wait for child
-```
+:::
 
 <slide class="aligncenter fullscreen">
 ### sys(python) 系统相关{.zoomIn}
@@ -865,6 +994,8 @@ for line in sys.stdin:
 
 <slide class="aligncenter fullscreen">
 ### Web Development
+:::column {.mycolumn}
+
 ```python
 # python3
 python3 -m http.server
@@ -873,6 +1004,10 @@ python3 -m http.server
 python -m SimpleHTTPServer
 ```
 
+<img src="/img/http.jpg" class='aligncenter' width=500  onclick="myfunction(this)">
+
+----
+
 :::div {.mydiv}
  * Flask, Django
  * ORM
@@ -880,8 +1015,25 @@ python -m SimpleHTTPServer
  * WSGI
 :::
 
+
+
+<slide class="aligncenter fullscreen">
+### Others
+<br>
+:::div {.mydiv}
+ * 测试,系统管理相关 {.zoomIn.tobuild}
+ * 网络， 爬虫 {.zoomIn.tobuild}
+ * 数据分析，可视化{.zoomIn.tobuild}
+ * GUI，图像处理 {.zoomIn.tobuild}
+ * AI {.zoomIn.tobuild}
+ * 其他语言交互 {.zoomIn.tobuild}
+:::
+
 <slide class="aligncenter fullscreen">
 ### misc
+:::column {.mycolumn}
+
+代码格式化
 
     find . -type f -name "*.py" | xargs python reindent.py --nobackup   -->  python2.6-examples
     pip install autopep8
@@ -894,6 +1046,7 @@ python -m SimpleHTTPServer
     pip3 install black
     find ./ -name '*.py' | xargs black
 
+----
 
 pylint 编码规范
 
@@ -904,12 +1057,14 @@ pylint 编码规范
 
 <slide class="aligncenter fullscreen">
 ### Pythonic 就是很 Python 的 Python 代码 {.zoomIn}
+:::column {.mycolumn}
 
 ```python
 c = a if a > b else b
 ```
 
-:::column {.aligncenter}
+----
+
 <img src="/img/code1.png" class='aligncenter' width=400 onclick="myfunction(this)">
 
 ----
@@ -921,6 +1076,8 @@ c = a if a > b else b
 
 <slide class="aligncenter fullscreen">
 ### Zen of Python
+:::column {.mycolumn}
+
 ```python
 >>> import this
 The Zen of Python, by Tim Peters
@@ -944,6 +1101,31 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
+
 ```
+----
+
+```
+美丽的比丑陋的更好。
+显式的比隐式的更好。
+简单的比复杂的更好。
+复杂的比难以理解的更好。（不能简化，至少还要保证可理解）
+平整的比嵌套的更好。
+稀疏的比密集的更好。
+可读性很有价值。
+特殊情况并没有特殊到需要破坏规则的程度。
+然而，实用性打败了纯粹的代码美学。（现实应用更重要）
+错误永远不应该无声无息，
+除非被显式地抑制。
+面对模糊不清时，拒绝去猜测，
+应该有且只有一个更好的明确清晰的方法，去解决问题。
+虽然这个方法一开始可能并不明显，除非你是荷兰人（指Python之父Guido）。
+现在开始做比永远不做更好。
+虽然永远不做常常优于没有思考的直接行动。
+如果实现方式很难解释，这就不是好的实现。
+如果实现方式很容易解释，这可能是好的实现。
+命名空间是一个超好的机制，我们需要多多地应用。
+```
+
 <slide class="aligncenter fullscreen">
 ### Thanks
