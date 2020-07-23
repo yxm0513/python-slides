@@ -139,8 +139,11 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 
 <slide class="aligncenter fullscreen">
 ### functions \: arguments {.zoomIn}
+:::column {.aligncenter}
 
 ![](/img/dearch.png)
+
+----
 
 ![](/img/dearch2.png)
 
@@ -167,13 +170,12 @@ By ![](https://avatars3.githubusercontent.com/u/73510?s=60&u=200063d372fefbd51de
 
 
 <slide class="aligncenter fullscreen">
-### 装饰器
+### 装饰器 {.zoomIn}
 
 :::div {.mydiv}
- * @ is syntactic sugar for closing over a function
- * 装饰器 \: 要实现的效果就是给不同的函数插入相同的功能
- * 制造函数的函数
-{.build.description.text-intro}
+ * @ is syntactic sugar for closing over a function {.zoomIn.tobuild}
+ * 装饰器 \: 要实现的效果就是给不同的函数插入相同的功能 {.zoomIn.tobuild}
+ * 制造函数的函数 {.zoomIn.tobuild}
 :::
 ![](/img/decorator.png)
 func = decorator(args)(func)
@@ -218,6 +220,12 @@ func = decorator(args)(func)
 
 <slide class="aligncenter fullscreen">
 ### class \: object
+:::column {.aligncenter}
+
+<img src="/img/obj.png" class='aligncenter' width=400  onclick="myfunction(this)">
+
+
+----
 
 :::div {.mydiv}
 * .func()
@@ -233,6 +241,14 @@ func = decorator(args)(func)
 
 <slide class="aligncenter fullscreen">
 ### class \: 继承 {.zoomIn}
+:::column {.aligncenter}
+
+```python
+print(C.mro())
+[<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>]
+```
+
+----
 
 :::div {.mydiv}
 * class classname (parent,)\:  super --> MRO序列 -> Method Resolution Order
@@ -243,20 +259,20 @@ func = decorator(args)(func)
 {.bounceInRight.build}
 :::
 
-```python
-print(C.mro())
-[<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>]
-```
 
 
 <slide class="aligncenter fullscreen">
 ###  class \: 属性
+:::column {.aligncenter}
 
 #### 类属性
 ```python
 class ClassName:
     attr = “test”;
 ```
+
+----
+
 #### 实例属性
 
 ```python
@@ -267,6 +283,13 @@ def __init__(self, name):
 
 <slide class="aligncenter fullscreen">
 ###  class \: \_\_dict\_\_
+
+:::column {.aligncenter}
+
+![](/img/dict.png)
+
+----
+
 :::div {.mydiv}
 * 用来存属性 {.zoomIn.tobuild}
   * class的存在 obj.\_\_class\_\_.\_\_dict\_\_里   -> Class 也是type的一个instance {.zoomIn.tobuild}
@@ -276,8 +299,6 @@ def __init__(self, name):
 * __dict__是dir()的子集，dir()包含__dict__中的属性。{.zoomIn.tobuild}
 {.bounceInRight.build}
 :::
-
-![](/img/dict.png)
 
 <slide class="aligncenter fullscreen">
 ### class \: \_\_dict\_\_
@@ -292,16 +313,12 @@ def __init__(self, name):
 
 <slide class="aligncenter fullscreen">
 ###  class \: \_\_slots\_\_
-:::div {.mydiv}
-* \_\_dict\_\_ 来存属性，当属性和实例特别多的时候，特别浪费内存，{.zoomIn.tobuild}
-* 有时候我们只想使用固定的对象，而不想任意绑定对象，这时候我们可以定义一个属性名称集合，只有在这个集合里的名称才可以绑定。__slots__就是完成这个功能的。 {.zoomIn.tobuild}
-{.bounceInRight.build}
-:::
+:::column {.sm .aligncenter}
 ```python
 class Student(object):
     __slots__ = ('name', 'age') # 用tuple定义允许绑定的属性名称
-```
-```    
+
+
 >>> s = Student() # 创建新的实例
 >>> s.name = 'Michael' # 绑定属性'name'
 >>> s.age = 25 # 绑定属性'age'
@@ -309,8 +326,16 @@ class Student(object):
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 AttributeError: 'Student' object has no attribute 'score'
-
 ```
+----
+
+:::div {.mydiv}
+* \_\_dict\_\_ 来存属性，当属性和实例特别多的时候，特别浪费内存，{.zoomIn.tobuild}
+* 有时候我们只想使用固定的对象，而不想任意绑定对象，这时候我们可以定义一个属性名称集合，只有在这个集合里的名称才可以绑定。__slots__就是完成这个功能的。 {.zoomIn.tobuild}
+{.bounceInRight.build}
+:::
+
+
 
 <slide class="aligncenter fullscreen">
 ###  class \: 特殊属性
@@ -358,6 +383,7 @@ class Parrot(object):
 
 <slide class="aligncenter fullscreen">
 ###  class \: method
+
 :::div {.mydiv}
 * 和一般的方法没有差别，创建了一个方法的实例，使用class的namespace.  {.zoomIn.tobuild}
 * 实例方法 \:def function_name(self, )\: ⇒ Class().function_name() {.zoomIn.tobuild}
@@ -386,6 +412,7 @@ class Parrot(object):
 
 <slide class="aligncenter fullscreen">
 ### import
+
 :::div {.mydiv}
 * import主要是做了二件事 {.zoomIn.tobuild}
   1. 查找相应的module -> sys.modules -> sys.meta_path _>  sys.path_hooks, sys.path_importer_cache, sys.path -> ImportError{.zoomIn.tobuild}
@@ -394,6 +421,12 @@ class Parrot(object):
   1. 导入一个新的模块的时候,会在sys.module中插入一条key-value对，key是module名，value就是所导入的module对象。{.zoomIn.tobuild}
   2. 当下一次import相同模块的时候，会先在sys.module中查找该模块，如果存在则直接导入sys.module中的module对象。{.zoomIn.tobuild}
   3. 将module对象加入到global namespace中，当程序需要调用该模块时，会从global namespace中检索。{.zoomIn.tobuild}
+:::
+
+<slide class="aligncenter fullscreen">
+### import
+
+:::div {.mydiv}
 * 语法 {.zoomIn.tobuild}
 	* import folder 只是导入package，相当于执行\_\_init\_\_.py文件 {.zoomIn.tobuild}
 	* from folder import abcd则执行了\_\_init\_\_.py文件文件与abcd.py文件{.zoomIn.tobuild}
@@ -412,20 +445,15 @@ class Parrot(object):
 
 <slide class="aligncenter fullscreen">
 ### \_\_main\_\_ module
-:::div {.mydiv}
-* for i in sys.modules\: print(i)   --> \_\_main\_\_
-* dir(\_\_main\_\_)
-* if \_\_name\_\_ == '\_\_main\_\_'\: 判断是本脚本运行，还是做为模块被使用，搜索路径sys.path
-{.bounceInRight.build}
-:::
+
+:::column {.aligncenter}
+
 ```python
 >>> print(__name__)
 __main__
->>> locals()
-{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>}
+
 >>> import sys
 >>> sys.modules
-
 >>> import __main__
 >>> dir(__main__)
 ['__annotations__', '__builtins__', '__doc__', '__loader__', '__main__', '__name__', '__package__', '__spec__', 'i', 'os', 'sys']
@@ -437,6 +465,17 @@ __main__
 >>> dir(__main__)
 ['__annotations__', '__builtins__', '__doc__', '__loader__', '__main__', '__name__', '__package__', '__spec__', 'i', 'os', 're', 'sys']
 ```
+
+----
+
+:::div {.mydiv}
+* for i in sys.modules\: print(i)   --> \_\_main\_\_
+* dir(\_\_main\_\_)
+* if \_\_name\_\_ == '\_\_main\_\_'\: 判断是本脚本运行，还是做为模块被使用，搜索路径sys.path
+{.bounceInRight.build}
+:::
+
+
 <slide class="aligncenter fullscreen">
 ### \_\_main\_\_ module
 ```python
@@ -459,8 +498,10 @@ haha
 True
 ```
 
+
 <slide class="aligncenter fullscreen">
 ###  module d.py
+
 ```python
 ~ cat d.py
 import re
@@ -470,14 +511,13 @@ def f():
 ```
 <slide class="aligncenter fullscreen">
 ###  module d.py
+
 ```python
 >>> import d
 >>> d.f
 <function f at 0x7f966fb3a730>
 >>> dir(d)
 ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'f', 're']
->>> for i in sys.
-KeyboardInterrupt
 >>> import sys
 >>> sys.path
 ['', '/Library/Python/3.7/site-packages', '/usr/local/lib/python3.7/site-packages', '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages', '/Users/yangxinming', '/Library/Frameworks/Python.framework/Versions/3.7/lib/python37.zip', '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7', '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/lib-dynload', '/Users/yangxinming/Library/Python/3.7/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/psycopg2-2.8.3-py3.7-macosx-10.9-x86_64.egg']
@@ -493,7 +533,7 @@ KeyboardInterrupt
 ```
 <slide class="aligncenter fullscreen">
 ###  updated module d.py
-```
+```python
 import re
 
 test = True
@@ -513,12 +553,10 @@ class A():
 <slide class="aligncenter fullscreen">
 ### \_\_main\_\_ module
 
-```
+```python
 >>> import d
 >>> dir(d)
 ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'f', 're']
->>> exit
-Use exit() or Ctrl-D (i.e. EOF) to exit
 >>> reload(d)   ==> python2.x
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -594,13 +632,8 @@ NameError: name 'reload' is not defined
 1
 >>> b.__next__()
 2
->>> b.__next__()
-3
-
 >>> (x for x in [1,2,3])
 <generator object <genexpr> at 0x7f8177ad1ed0>
-
-
 >>> def test_func():
 ...     for x in [1,2,3]:
 ...             yield x
@@ -688,7 +721,11 @@ dir(__builtins__)
 
 <slide class="aligncenter fullscreen">
 ### eval, exec, compile
-<br>
+:::column {.aligncenter}
+<img src="/img/exec.png" class='aligncenter' width=400 onclick="myfunction(this)">
+
+----
+
 :::div {.mydiv}
  * eval -> 输入expression, expr -> value {.zoomIn.tobuild}
  * exec -> python code string  --> ignore return value {.zoomIn.tobuild}
@@ -697,7 +734,7 @@ dir(__builtins__)
     * eval mode -> python file --> bytecode and return value{.zoomIn.tobuild}
 {.build.description.text-intro}
 :::
-![](/img/exec.png)
+
 
 <slide class="aligncenter fullscreen">
 ### monkey patching {.zoomIn}
